@@ -1,0 +1,13 @@
+:root {
+  --top-bg: #f2ede4;
+  --text-color: #333;
+  --icon-color: #999;
+  --primary-green: #4caf50;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
