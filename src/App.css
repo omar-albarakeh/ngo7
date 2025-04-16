@@ -1,8 +1,9 @@
 :root {
   --top-bg: #f2ede4;
-  --text-color: #333;
+  --text-color: #000000;
   --icon-color: #999;
   --primary-green: #4caf50;
+  --secondary-green: #367138;
 }
 
 * {

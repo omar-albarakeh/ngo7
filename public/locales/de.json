@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "address": "7 Rue de Pfastatt, 68110 Illzach, Frankreich",
+    "email": "contact@sospalestine.fr",
+    "phone1": "+33 6 34 58 82 76",
+    "phone2": "+33 9 51 08 24 54",
+    "phone3": "+33 7 83 25 53 25",
+    "follow-us": "Folgen Sie uns:",
+    "ourServices": "Unsere Dienstleistungen",
+    "whoWeAre": {
+      "title": "Wer wir sind",
+      "whoAreWe": "Wer wir sind",
+      "history": "Geschichte"
+    },
+    "services": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al Maal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Rafah Notfall",
+      "aidAlAdha": "Opferfest-Hilfe",
+      "orphanSponsorship": "Waisenpatenschaft",
+      "waterForGaza": "Wasser für Gaza",
+      "ramadanDonations": "Ramadan-Spenden",
+      "medicalAid": "Medizinische Hilfe",
+      "educationSupport": "Bildungsunterstützung"
+    },
+    "gallery": "Galerie",
+    "contactUs": "Kontaktieren Sie uns",
+    "donateNow": "Jetzt spenden"
+  },
+  "slider": [
+    {
+      "title": "Unterstützung für Gaza in der Krise",
+      "name": "SOS Gaza",
+      "description": "Dringende Hilfe wird benötigt, um Nahrung, Unterkunft und medizinische Versorgung für betroffene Familien in Gaza bereitzustellen",
+      "buttonText": "Jetzt unterstützen"
+    },
+    {
+      "title": "Erfüllen Sie Ihre Pflicht",
+      "name": "Zakat Al Maal",
+      "description": "Geben Sie Ihre Zakat, um einen bleibenden Unterschied im Leben der Bedürftigsten zu machen",
+      "buttonText": "Zakat geben"
+    },
+    {
+      "title": "Spenden Sie großzügig in diesem Ramadan",
+      "name": "Ramadan 2025",
+      "description": "Teilen Sie die Segnungen des Ramadan, indem Sie Familien mit Nahrung und Grundbedürfnissen unterstützen",
+      "buttonText": "Für Ramadan spenden"
+    },
+    {
+      "title": "Reagieren Sie auf die dringende Krise",
+      "name": "Rafah Notfall",
+      "description": "Leben sind in Gefahr. Helfen Sie uns, Nothilfe für die Betroffenen in Rafah zu leisten",
+      "buttonText": "Jetzt helfen"
+    },
+    {
+      "title": "Feiern Sie Eid durch Geben",
+      "name": "Opferfest-Hilfe",
+      "description": "Teilen Sie Ihr Qurbani und bringen Sie Freude zu bedürftigen Familien an diesem Eid",
+      "buttonText": "Qurbani spenden"
+    },
+    {
+      "title": "Verändern Sie ein Leben heute",
+      "name": "Waisenpatenschaft",
+      "description": "Bieten Sie Waisen Hoffnung und eine Zukunft durch kontinuierliche Unterstützung und Fürsorge",
+      "buttonText": "Ein Waisenkind unterstützen"
+    },
+    {
+      "title": "Bringen Sie sauberes Wasser nach Gaza",
+      "name": "Wasser für Gaza",
+      "description": "Helfen Sie uns, nachhaltige Wasserlösungen für Familien in großer Not zu schaffen",
+      "buttonText": "Wasser spenden"
+    }
+  ],
+  "taxTipTitle": "💡 Wusstest du schon?",
+  "taxReduction": "Spenden sind für eine Steuerermäßigung von",
+  "taxReductionPercentage": "66%",
+  "taxReductionLimit": "bis zu 20% deines zu versteuernden Einkommens berechtigt.",
+  "example": "Beispiel: Spende 100 € → Spare 66 € bei Steuern.",
+  "reportText": "Melde deine Spende in Feld",
+  "form": "7UF des Formulars 2042 RICI",
+  "claimText": "um deine Steuerermäßigung zu beantragen. Weitere Details findest du auf der offiziellen",
+  "frenchTaxWebsite": "französischen Steuerwebsite",
+  "youtubeUpdates": "YouTube-Updates",
+  "videos": [
+    {
+      "title": "Feiere Eid mit Freude und Großzügigkeit",
+      "description": "Eid ist eine Zeit der Einheit, Liebe und des Teilens. Verbreite Freude, indem du Mahlzeiten und Freundlichkeit teilst!"
+    },
+    {
+      "title": "Ramadan: Eine Zeit des Gebens",
+      "description": "Ramadan steht für Mitgefühl und Großzügigkeit. Sieh, wie Geben in diesem heiligen Monat Hoffnung bringt."
+    },
+    {
+      "title": "Zurückgeben im Ramadan",
+      "description": "Im Ramadan zählt jede gute Tat. Sieh, wie Großzügigkeit Leben in der Gemeinschaft verändert."
+    },
+    {
+      "title": "Familien im Ramadan versorgen",
+      "description": "Im Ramadan sollte niemand hungern. Schau, wie wir Familien mit Nahrung und Versorgung helfen."
+    },
+    {
+      "title": "Gaza-Notfall: Ein tödlicher Winter",
+      "description": "Gaza erlebt einen harten Winter mit begrenzten Ressourcen. Deine Hilfe kann dringend benötigte Unterstützung bringen."
+    },
+    {
+      "title": "Essen bringen, Hoffnung bringen",
+      "description": "Lebensmittelverteilung bringt Nahrung und Hoffnung für Bedürftige. Schau, wie wir einen Unterschied machen."
+    },
+    {
+      "title": "Freundlichkeit im Ramadan verbreiten",
+      "description": "Ramadan ist eine Zeit der Freundlichkeit. Erlebe die Kraft des Gebens und der Unterstützung weltweit."
+    },
+    {
+      "title": "Hoffnung durch humanitäre Hilfe",
+      "description": "Jede Mahlzeit und jede helfende Hand zählt. Sei Teil unserer Mission, Hoffnung zu bringen."
+    }
+  ]
+}

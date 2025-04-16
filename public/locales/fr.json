@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "address": "7 Rue de Pfastatt, 68110 Illzach, France",
+    "email": "contact@sospalestine.fr",
+    "phone1": "+33 6 34 58 82 76",
+    "phone2": "+33 9 51 08 24 54",
+    "phone3": "+33 7 83 25 53 25",
+    "follow-us": "Suivez-nous :",
+    "ourServices": "Nos Services",
+    "whoWeAre": {
+      "title": "Qui Nous Sommes",
+      "whoAreWe": "Qui Nous Sommes",
+      "history": "Histoire"
+    },
+    "services": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al Maal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Urgence Rafah",
+      "aidAlAdha": "Aide Al Adha",
+      "orphanSponsorship": "Parrainage d'Orphelin",
+      "waterForGaza": "Eau Pour Gaza",
+      "ramadanDonations": "Dons Ramadan",
+      "medicalAid": "Aide Médicale",
+      "educationSupport": "Soutien Éducatif"
+    },
+    "gallery": "Galerie",
+    "contactUs": "Contactez-Nous",
+    "donateNow": "Faire un Don"
+  },
+  "slider": [
+    {
+      "title": "Soutien à Gaza en Crise",
+      "name": "SOS Gaza",
+      "description": "Une aide urgente est nécessaire pour fournir nourriture, abri et soutien médical aux familles touchées à Gaza",
+      "buttonText": "Soutenir Maintenant"
+    },
+    {
+      "title": "Accomplissez Votre Devoir",
+      "name": "Zakat Al Maal",
+      "description": "Donnez votre Zakat pour faire une différence durable dans la vie des plus nécessiteux",
+      "buttonText": "Donner Zakat"
+    },
+    {
+      "title": "Donnez Généreusement Ce Ramadan",
+      "name": "Ramadan 2025",
+      "description": "Partagez les bénédictions du Ramadan en soutenant les familles avec de la nourriture et des produits essentiels",
+      "buttonText": "Donner pour Ramadan"
+    },
+    {
+      "title": "Répondez à l'Urgence",
+      "name": "Urgence Rafah",
+      "description": "Des vies sont en danger. Aidez-nous à fournir une aide d'urgence aux personnes touchées à Rafah",
+      "buttonText": "Aider Maintenant"
+    },
+    {
+      "title": "Célébrez l'Aïd en Donnant",
+      "name": "Aide Al Adha",
+      "description": "Partagez votre Qurbani et apportez de la joie aux familles dans le besoin cet Aïd",
+      "buttonText": "Donner Qurbani"
+    },
+    {
+      "title": "Changez une Vie Aujourd'hui",
+      "name": "Parrainage d'Orphelin",
+      "description": "Offrez espoir et avenir aux orphelins grâce à un soutien et des soins constants",
+      "buttonText": "Parrainer un Orphelin"
+    },
+    {
+      "title": "Apportez de l'Eau Propre à Gaza",
+      "name": "Eau Pour Gaza",
+      "description": "Aidez-nous à construire des solutions durables en eau pour les familles dans le besoin",
+      "buttonText": "Donner de l'Eau"
+    }
+  ],
+  "taxTipTitle": "💡 Le saviez-vous ?",
+  "taxReduction": "Les dons sont éligibles à une réduction fiscale de",
+  "taxReductionPercentage": "66 %",
+  "taxReductionLimit": "jusqu'à 20 % de votre revenu imposable.",
+  "example": "Exemple : Donnez 100 € → Économisez 66 € sur vos impôts.",
+  "reportText": "Déclarez votre don dans la case",
+  "form": "7UF du formulaire 2042 RICI",
+  "claimText": "pour bénéficier de la réduction fiscale. Pour plus de détails, visitez le site officiel",
+  "frenchTaxWebsite": "site fiscal français",
+  "youtubeUpdates": "Mises à jour YouTube",
+  "videos": [
+    {
+      "title": "Célébrez l’Aïd avec joie et générosité",
+      "description": "L’Aïd est un moment d’unité, d’amour et de partage. Répandez la joie en partageant des repas et de la gentillesse !"
+    },
+    {
+      "title": "Ramadan : Une saison de dons",
+      "description": "Le Ramadan est synonyme de compassion et de générosité. Découvrez comment le don peut apporter de l’espoir pendant ce mois sacré."
+    },
+    {
+      "title": "Redonner pendant le Ramadan",
+      "description": "Pendant le Ramadan, chaque acte de bonté compte. Regardez comment la générosité transforme les vies dans la communauté."
+    },
+    {
+      "title": "Nourrir les familles pendant le Ramadan",
+      "description": "Pendant le Ramadan, personne ne devrait avoir faim. Découvrez comment nous aidons les familles avec des repas et des fournitures."
+    },
+    {
+      "title": "Urgence à Gaza : Un hiver meurtrier",
+      "description": "Gaza fait face à un hiver difficile avec peu de ressources. Votre aide peut fournir une aide d’urgence essentielle."
+    },
+    {
+      "title": "Livrer de la nourriture, livrer de l’espoir",
+      "description": "La distribution alimentaire apporte de la nourriture et de l’espoir aux familles dans le besoin. Voyez comment nous faisons la différence."
+    },
+    {
+      "title": "Partager la bonté pendant le Ramadan",
+      "description": "Le Ramadan est un moment pour répandre la bonté. Découvrez la puissance du don et du soutien à travers le monde."
+    },
+    {
+      "title": "L’espoir grâce à l’aide humanitaire",
+      "description": "Chaque repas et chaque geste compte. Rejoignez notre mission pour apporter de l’espoir aux plus démunis."
+    }
+  ]
+}
