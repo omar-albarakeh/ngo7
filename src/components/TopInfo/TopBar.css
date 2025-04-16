@@ -2,9 +2,8 @@
   --top-bg: #f2ede4;
   --text-color: #333;
   --icon-color: #999;
-  --primary-green: #4CAF50;
+  --primary-green: #4caf50;
 }
-
 
 .top-bar {
   display: flex;

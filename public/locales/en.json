@@ -5,6 +5,27 @@
     "phone1": "+33 6 34 58 82 76",
     "phone2": "+33 9 51 08 24 54",
     "phone3": "+33 7 83 25 53 25",
-    "follow-us": "Follow us:"
+    "follow-us": "Follow us:",
+     "ourServices": "Our Services",
+    "whoWeAre": {
+      "title": "Who We Are",
+      "whoAreWe": "Who Are We",
+      "history": "History"
+    },
+    "services": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al Maal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Rafah Emergency",
+      "aidAlAdha": "Aid-al-Adha",
+      "orphanSponsorship": "Orphan Sponsorship",
+      "waterForGaza": "Water For Gaza",
+      "ramadanDonations": "Ramadan Donations",
+      "medicalAid": "Medical Aid",
+      "educationSupport": "Education Support"
+    },
+    "gallery": "Gallery",
+    "contactUs": "Contact Us",
+    "donateNow": "Donate Now"
   }
 }
