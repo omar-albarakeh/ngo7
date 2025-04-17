@@ -219,5 +219,33 @@
     "aid_al_adha_title_2": "🐐 Sacrifice de l’Aïd",
     "aid_al_adha_description_2": "Offrez votre sacrifice pour nourrir pendant l’Aïd. 🍲",
     "aid_al_adha_cta_2": "🙏 Faire un sacrifice"
+  },
+  "menu": {
+    "heading": "NOS SERVICES",
+    "aidAlAdha": {
+      "title": "Aïd Al-Adha",
+      "subtitle": "Célébrez l'Aïd en partageant la joie avec les familles de Gaza. Choisissez de donner : Mouton pour 250€, Veau entier pour 1850€, ou 1/7 Veau pour 260€. Votre don permet l’offrande de moutons ou de veaux, apportant chaleur et bonheur à ceux dans le besoin."
+    },
+    "sosGaza": {
+      "title": "SOS Gaza",
+      "subtitle": "La population de Gaza subit des bombardements constants et une détresse humanitaire. Votre soutien urgent fournit nourriture, aide médicale et fournitures essentielles aux familles en détresse."
+    },
+    "zakatAlMaal": {
+      "title": "Zakat Al-Maal",
+      "subtitle": "Accomplissez votre devoir et transformez des vies. La Zakat Al-Maal, un des cinq piliers de l’Islam, implique de donner 2,5% de l’épargne dépassant le Nisab. Votre Zakat finance les secours vitaux et les projets durables."
+    },
+    "rafahEmergency": {
+      "title": "Urgence Rafah",
+      "subtitle": "Des milliers de personnes ont fui Rafah à la recherche de sécurité. Aidez-nous à fournir une aide d’urgence aux familles déplacées en cette période critique."
+    },
+    "orphanSponsorship": {
+      "title": "Parrainage d'Orphelin",
+      "subtitle": "Faites une différence durable dans la vie d’un enfant. Parrainez un orphelin pour lui offrir nourriture, éducation, soins de santé et un sentiment d’appartenance."
+    },
+    "waterForGaza": {
+      "title": "Eau pour Gaza",
+      "subtitle": "À Gaza, plus de 90 % de l’eau du robinet est impropre à la consommation en raison d’une salinité et d’une pollution extrêmes. La contamination des nappes phréatiques dépasse 96 %. Aidez-nous à fournir une eau potable et sûre, source de vie pour des milliers de familles."
+    },
+    "learnMore": "Faire un don"
   }
 }

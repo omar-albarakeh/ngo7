@@ -219,5 +219,33 @@
     "aid_al_adha_title_2": "🐐 Adha Animal Sacrifice",
     "aid_al_adha_description_2": "Offer your sacrifice to feed families this Eid. 🍲",
     "aid_al_adha_cta_2": "🙏 Make a Sacrifice"
+  },
+  "menu": {
+    "heading": "OUR SERVICES",
+    "aidAlAdha": {
+      "title": "Aid Al-Adha",
+      "subtitle": "Celebrate Eid by sharing joy with families in Gaza. Choose to donate: Mutton for €250, a whole Veal for €1850, or 1/7 Veal for €260. Your gift helps provide sheep or calves for sacrifice, bringing warmth and happiness to those in need."
+    },
+    "sosGaza": {
+      "title": "SOS Gaza",
+      "subtitle": "The people of Gaza are enduring relentless bombardments and humanitarian distress. Your urgent support delivers food, medical aid, and essential supplies to families in desperate need."
+    },
+    "zakatAlMaal": {
+      "title": "Zakat Al-Maal",
+      "subtitle": "Fulfill your obligation and uplift lives. Zakat Al-Maal, one of Islam’s five pillars, requires giving 2.5% of savings exceeding the Nisab. Your Zakat funds critical relief efforts and sustainable aid projects."
+    },
+    "rafahEmergency": {
+      "title": "Rafah Emergency",
+      "subtitle": "Thousands have fled their homes in Rafah, seeking safety and shelter. Help us deliver emergency aid to displaced families in this critical time."
+    },
+    "orphanSponsorship": {
+      "title": "Orphan Sponsorship",
+      "subtitle": "Make a lasting impact in a child’s life. Sponsor an orphan to provide food, education, healthcare, and a sense of belonging."
+    },
+    "waterForGaza": {
+      "title": "Water for Gaza",
+      "subtitle": "In Gaza, over 90% of tap water is undrinkable due to extreme salinity and pollution. Groundwater contamination exceeds 96%. Help us supply clean, safe water—an essential lifeline for countless families."
+    },
+    "learnMore": "Donate Now"
   }
 }

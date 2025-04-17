@@ -6,6 +6,7 @@ import TaxTip from "../components/TaxTip/TaxTip";
 import YouTube from "../components/Youtube/YouTubeGallery";
 import FeatureSection from "../components/FeatureSection/FeatureSection";
 import CardSlider from "../components/cardSlider3d/cardSlider3d";
+import MenuItem from "../components/MenuItem/MenuItem";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <YouTube />
       <FeatureSection />
       <CardSlider />
+      <MenuItem />
     </>
   );
 };

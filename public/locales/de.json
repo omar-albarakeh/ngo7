@@ -219,5 +219,33 @@
     "aid_al_adha_title_2": "🐐 Opfergabe zum Adha-Fest",
     "aid_al_adha_description_2": "Opfere ein Tier, um Bedürftige zu ernähren. 🍲",
     "aid_al_adha_cta_2": "🙏 Opfer bringen"
+  },
+  "menu": {
+    "heading": "UNSERE DIENSTLEISTUNGEN",
+    "aidAlAdha": {
+      "title": "Opferfest (Aid Al-Adha)",
+      "subtitle": "Feiern Sie das Eid, indem Sie Freude mit Familien in Gaza teilen. Spenden Sie: Ein Schaf für 250€, ein ganzes Kalb für 1850€, oder 1/7 Kalb für 260€. Ihre Spende ermöglicht Opfertiere und bringt Wärme und Freude zu Bedürftigen."
+    },
+    "sosGaza": {
+      "title": "SOS Gaza",
+      "subtitle": "Die Menschen in Gaza leiden unter andauernden Bombardierungen und humanitärer Not. Ihre schnelle Hilfe liefert Lebensmittel, medizinische Versorgung und lebenswichtige Hilfsgüter für Familien in Not."
+    },
+    "zakatAlMaal": {
+      "title": "Zakat Al-Maal",
+      "subtitle": "Erfüllen Sie Ihre Pflicht und verbessern Sie Leben. Zakat Al-Maal, eine der fünf Säulen des Islam, verlangt 2,5% von Ersparnissen über dem Nisab. Ihre Zakat unterstützt wichtige Hilfs- und Entwicklungsprojekte."
+    },
+    "rafahEmergency": {
+      "title": "Rafah-Notfall",
+      "subtitle": "Tausende Menschen sind aus Rafah geflohen und suchen Sicherheit. Helfen Sie uns, Notfallhilfe für die vertriebenen Familien bereitzustellen."
+    },
+    "orphanSponsorship": {
+      "title": "Waisenpatenschaft",
+      "subtitle": "Verändern Sie das Leben eines Kindes nachhaltig. Übernehmen Sie eine Patenschaft für ein Waisenkind und sichern Sie Nahrung, Bildung, Gesundheitsversorgung und Geborgenheit."
+    },
+    "waterForGaza": {
+      "title": "Wasser für Gaza",
+      "subtitle": "In Gaza ist über 90 % des Leitungswassers wegen extremer Salzigkeit und Verschmutzung ungenießbar. Die Grundwasserverschmutzung übersteigt 96 %. Helfen Sie uns, sauberes und sicheres Wasser bereitzustellen – eine lebenswichtige Quelle für viele Familien."
+    },
+    "learnMore": "Jetzt spenden"
   }
 }
