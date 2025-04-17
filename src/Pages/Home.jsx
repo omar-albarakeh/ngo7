@@ -8,6 +8,7 @@ import FeatureSection from "../components/FeatureSection/FeatureSection";
 import CardSlider from "../components/cardSlider3d/cardSlider3d";
 import MenuItem from "../components/MenuItem/MenuItem";
 import BacktoTop from "../components/BackToTopButton/BackToTop";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <CardSlider />
       <MenuItem />
       <BacktoTop />
+      <Footer />
     </>
   );
 };
