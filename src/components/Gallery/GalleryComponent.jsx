@@ -7,113 +7,103 @@ import "./Gallery.css";
 const Projects = () => {
   const campaigns2025 = [
     {
-      title: "Education for All",
-      description:
-        "Providing school supplies and scholarships to underprivileged children.",
-      imgUrl: "/images/slide1.png",
+      title: "SOS Gaza",
+      description: "Emergency humanitarian aid and relief for Gaza residents.",
+      imgUrl: "/images/HeroSlider/slide1.png",
     },
     {
-      title: "Clean Water Mission",
+      title: "Zakat Al Maal",
       description:
-        "Installing water wells in remote villages to ensure clean drinking water.",
-      imgUrl: "/images/slide1.png",
+        "Fulfill your annual Zakat obligation and help those in need.",
+      imgUrl: "/images/HeroSlider/slide1.png",
     },
     {
-      title: "Health Clinics Expansion",
-      description: "Building new healthcare centers in underserved areas.",
-      imgUrl: "/images/slide1.png",
+      title: "Ramadan 2025",
+      description:
+        "Distribute iftar meals and essential aid during Ramadan 2025.",
+      imgUrl: "/images/HeroSlider/slide1.png",
     },
     {
-      title: "Refugee Support Program",
-      description:
-        "Providing shelter, food, and legal support to displaced refugees.",
-      imgUrl: "/images/slide1.png",
+      title: "Rafah Emergency",
+      description: "Support families affected by the crisis in Rafah.",
+      imgUrl: "/images/HeroSlider/slide1.png",
     },
     {
-      title: "Sustainable Agriculture",
-      description:
-        "Teaching farming techniques to improve food security and reduce poverty.",
-      imgUrl: "/images/slide1.png",
+      title: "Aid-al-Adha",
+      description: "Share your Qurbani with families in need this Aid-al-Adha.",
+      imgUrl: "/images/HeroSlider/slide1.png",
     },
     {
-      title: "Disaster Relief Fund",
+      title: "Orphan Sponsorship",
       description:
-        "Rapid response to natural disasters, including flood, earthquake, and hurricane relief.",
-      imgUrl: "/images/slide1.png",
+        "Sponsor an orphan and secure their future with your support.",
+      imgUrl: "/images/HeroSlider/slide1.png",
     },
   ];
 
   const campaigns2024 = [
     {
-      title: "Winter Relief Drive",
+      title: "Water For Gaza",
       description:
-        "Supplying warm clothing and blankets to families in need during winter.",
+        "Provide access to clean drinking water for Gaza communities.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Medical Aid Initiative",
-      description:
-        "Free medical camps and medicine distribution in underserved areas.",
+      title: "Zakat Al Maal",
+      description: "Give your Zakat and uplift those struggling in poverty.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Housing for Homeless",
-      description:
-        "Building safe and affordable housing for the homeless population.",
+      title: "SOS Gaza",
+      description: "Lifesaving emergency response for people in Gaza.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Child Nutrition Program",
-      description:
-        "Providing nutritious meals to children in poverty-stricken areas.",
+      title: "Ramadan Donations",
+      description: "Help families observe Ramadan with dignity and ease.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Clean Energy Initiative",
-      description: "Promoting sustainable energy sources in rural communities.",
+      title: "Orphan Sponsorship",
+      description: "Provide care and education for orphaned children.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Vocational Training for Women",
-      description:
-        "Offering skill development programs to empower women in low-income areas.",
+      title: "Rafah Emergency",
+      description: "Deliver aid to civilians affected by the Rafah crisis.",
       imgUrl: "/images/slide1.png",
     },
   ];
 
   const campaigns2023 = [
     {
-      title: "Food for Families",
-      description:
-        "Distributing food kits to families facing financial hardship.",
+      title: "Ramadan Donations",
+      description: "Join us in delivering Ramadan essentials to those in need.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Flood Relief Program",
-      description:
-        "Emergency assistance and supplies for flood-affected communities.",
+      title: "Water For Gaza",
+      description: "Ensure clean water access to families in Gaza.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Youth Empowerment Program",
-      description:
-        "Providing mentorship and leadership training to young people.",
+      title: "Zakat Al Maal",
+      description: "Distribute Zakat funds to support the most vulnerable.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Water Sanitation Campaign",
-      description: "Building proper sanitation facilities in rural areas.",
+      title: "Orphan Sponsorship",
+      description: "Be the reason an orphan thrives and smiles again.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Elderly Support Network",
-      description: "Providing support and care to elderly people in need.",
+      title: "SOS Gaza",
+      description: "Deliver emergency aid to Gaza amidst urgent needs.",
       imgUrl: "/images/slide1.png",
     },
     {
-      title: "Environmental Conservation",
-      description:
-        "Planting trees and raising awareness about environmental issues.",
+      title: "Aid-al-Adha",
+      description: "Support Eid sacrifice programs for needy families.",
       imgUrl: "/images/slide1.png",
     },
   ];
