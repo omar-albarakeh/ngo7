@@ -271,5 +271,22 @@
     "Allah verspricht: ‚Was immer ihr spendet, Ich werde es ersetzen‘ — fürchte also keinen Verlust beim Geben an Bedürftige.",
     "Wenn du anderen gibst, investierst du in dein Jenseits — tausche dein Vermögen gegen ewige Belohnung.",
     "Erweiche dein Herz beim Anblick eines Waisenkindes und strecke deine Hand dem Bedürftigen entgegen — darin liegt wahre Gottesfurcht."
-  ]
+  ],
+  "bottomBar": {
+    "close": "× Schließen",
+    "donate": " Spenden",
+    "title": "Mach heute einen Unterschied:",
+    "placeholder": "Betrag eingeben",
+    "donateNow": "Jetzt spenden",
+    "causes": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al-Maal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Notfall in Rafah",
+      "aidAlAdha": "Opferfest (Aid al-Adha)",
+      "orphanSponsorship": "Waisenkind-Patenschaft",
+      "waterForGaza": "Wasser für Gaza",
+      "ramadanDonations": "Ramadan-Spenden"
+    }
+  }
 }

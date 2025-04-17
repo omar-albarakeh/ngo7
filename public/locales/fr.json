@@ -271,5 +271,22 @@
     "Allah promet : ‘Tout ce que vous donnez, Je le remplacerai’ — ne crains donc aucune perte en aidant les nécessiteux.",
     "Quand tu donnes aux autres, tu investis dans ton au-delà — échange ta richesse contre des récompenses éternelles.",
     "Que ton cœur s’attendrisse devant l’orphelin, et que ta main s’étende vers le nécessiteux — c’est là que réside la vraie piété."
-  ]
+  ],
+  "bottomBar": {
+    "close": "× Fermer",
+    "donate": " Faire un don",
+    "title": "Faites la différence aujourd'hui :",
+    "placeholder": "Entrez le montant",
+    "donateNow": "Faire un don maintenant",
+    "causes": {
+      "sosGaza": "SOS Gaza",
+      "zakatAlMaal": "Zakat Al-Maal",
+      "ramadan2025": "Ramadan 2025",
+      "rafahEmergency": "Urgence à Rafah",
+      "aidAlAdha": "Aïd al-Adha",
+      "orphanSponsorship": "Parrainage d’orphelins",
+      "waterForGaza": "Eau pour Gaza",
+      "ramadanDonations": "Dons de Ramadan"
+    }
+  }
 }
