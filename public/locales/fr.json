@@ -356,5 +356,75 @@
         }
       ]
     }
+  },
+  "text": {
+    "line1": "Notre parcours n’est possible que grâce à la compassion et au dévouement de nos soutiens.",
+    "line2": "Ensemble, nous sommes unis pour soutenir le peuple palestinien et amplifier leurs voix."
+  },
+  "labels": ["Impact", "Unité", "Compassion"],
+  "featuresB": {
+    "title": "Solidarité avec Gaza – Nos Projets en Cours",
+    "initiatives": [
+      {
+        "id": "well",
+        "title": "Partage d’eau – De l’eau potable pour Gaza",
+        "description": "Les infrastructures hydrauliques de Gaza sont gravement endommagées, privant des milliers de familles d’eau potable. Grâce à votre soutien, nous partageons et distribuons de l’eau saine à travers des puits et des systèmes de filtration mobiles et fixes, pour les écoles, les hôpitaux et les quartiers sinistrés.",
+        "urgency": "L’eau, c’est la vie. Aidons Gaza à retrouver l’accès à l’eau potable.",
+        "cta": "Partagez l’eau avec Gaza",
+        "highlights": [
+          "Distribution d’eau potable",
+          "Systèmes de filtration mobiles et fixes",
+          "Fourniture d’eau aux zones vulnérables"
+        ]
+      },
+      {
+        "id": "sponsorship",
+        "title": "Parrainage social – Pour les familles brisées par la guerre",
+        "description": "La guerre a plongé des milliers de familles de Gaza dans la misère. Notre programme offre un soutien financier, alimentaire et médical aux veuves, blessés et familles sans revenus.",
+        "urgency": "Un petit geste peut apaiser bien des souffrances.",
+        "cta": "Soutenir une famille",
+        "benefits": [
+          "Aide financière d’urgence",
+          "Soutien médical et alimentaire",
+          "Soutien aux plus vulnérables"
+        ]
+      },
+      {
+        "id": "udhiyah",
+        "title": "🐑 Projet des sacrifices – Une joie d’Aïd pour Gaza",
+        "description": "À Gaza, beaucoup ne mangent de viande qu’une fois l’an. Grâce à votre sacrifice, nous distribuons de la viande fraîche aux familles les plus vulnérables durant l’Aïd al-Adha.",
+        "urgency": "Offrez votre sacrifice et redonnez le sourire à Gaza.",
+        "cta": "Offrir une Aïdiyya",
+        "supplies": [
+          "Distribution de viande fraîche",
+          "Aide ciblée aux familles fragilisées",
+          "Une fête digne malgré l’épreuve"
+        ]
+      },
+      {
+        "id": "iftar",
+        "title": "Iftars de Ramadan – Repas pour les jeûneurs de Gaza",
+        "description": "Sous blocus, les familles de Gaza ont du mal à rompre leur jeûne. Chaque soir, nous préparons et distribuons des repas chauds aux jeûneurs les plus affectés.",
+        "urgency": "Avec vous, offrons un repas digne et un moment de répit.",
+        "cta": "Offrir un iftar",
+        "highlights": [
+          "Distribution quotidienne de repas",
+          "Aide ciblée pendant Ramadan",
+          "Soutien aux plus démunis"
+        ]
+      },
+      {
+        "id": "orphans",
+        "title": "Parrainage des orphelins – Un avenir pour les enfants de Gaza",
+        "description": "Des milliers d'enfants ont perdu leurs parents à Gaza. Par le parrainage, nous leur garantissons éducation, soins médicaux et alimentation essentielle.",
+        "urgency": "Parrainez un orphelin et changez son destin.",
+        "cta": "Parrainer un enfant",
+        "benefits": [
+          "Accès à l'éducation",
+          "Soins de santé complets",
+          "Panier alimentaire mensuel"
+        ]
+      }
+    ]
   }
 }

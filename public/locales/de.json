@@ -356,5 +356,75 @@
         }
       ]
     }
+  },
+  "text": {
+    "line1": "Onze reis is alleen mogelijk dankzij het medeleven en de toewijding van onze supporters.",
+    "line2": "Samen staan we verenigd om het Palestijnse volk te steunen en hun stemmen te versterken."
+  },
+  "labels": ["Impact", "Eenheid", "Compassie"],
+  "featuresB": {
+    "title": "Samen voor Gaza – Lopende Hulpacties",
+    "initiatives": [
+      {
+        "id": "well",
+        "title": "Water delen – Schoon drinkwater voor Gaza",
+        "description": "De watervoorziening in Gaza is zwaar beschadigd. Duizenden gezinnen hebben geen toegang tot schoon drinkwater. Met uw steun delen en verspreiden we veilig drinkwater via putten en mobiele filtersystemen, voor scholen, ziekenhuizen en getroffen gemeenschappen.",
+        "urgency": "Water is leven. Help ons om water te delen met wie het nodig heeft.",
+        "cta": "Deel water met Gaza",
+        "highlights": [
+          "Verspreiding van schoon drinkwater",
+          "Mobiele en vaste filtersystemen",
+          "Watervoorziening voor gemeenschappen in nood"
+        ]
+      },
+      {
+        "id": "sponsorship",
+        "title": "Sociale Sponsoring – Steun voor door oorlog getroffen gezinnen",
+        "description": "Door de aanhoudende aanvallen zijn duizenden gezinnen in Gaza alles kwijtgeraakt. Wij bieden financiële, medische en voedselhulp aan weduwen, gewonden en gezinnen zonder inkomen.",
+        "urgency": "Een klein gebaar kan hun lijden verlichten.",
+        "cta": "Steun een gezin",
+        "benefits": [
+          "Noodhulp en financiële ondersteuning",
+          "Medische zorg en voedselpakketten",
+          "Hulp voor de meest kwetsbaren"
+        ]
+      },
+      {
+        "id": "udhiyah",
+        "title": "🐑 Offerproject – Eid-vreugde voor Gaza",
+        "description": "Voor veel gezinnen in Gaza is vlees een zeldzame luxe. Met uw offer brengen wij vers vlees bij gezinnen die het het hardst nodig hebben tijdens Eid al-Adha.",
+        "urgency": "Schenk je offer aan Gaza en breng vreugde in hun huis.",
+        "cta": "Doe een offergift",
+        "supplies": [
+          "Vers vlees uitdelen",
+          "Gericht op de armste gezinnen",
+          "Een waardige Eid voor iedereen"
+        ]
+      },
+      {
+        "id": "iftar",
+        "title": "Ramadan Iftars – Maaltijden voor vastende gezinnen",
+        "description": "Tijdens Ramadan hebben veel gezinnen in Gaza moeite om een maaltijd te vinden voor iftar. Dagelijks bezorgen wij warme maaltijden aan de meest getroffen families.",
+        "urgency": "Uw gift bezorgt hen een warme maaltijd en een moment van rust.",
+        "cta": "Schenk een iftar",
+        "highlights": [
+          "Dagelijkse warme maaltijden",
+          "Hulp tijdens Ramadan",
+          "Voor de meest kwetsbaren"
+        ]
+      },
+      {
+        "id": "orphans",
+        "title": "Weessponsoring – Geef kinderen in Gaza weer hoop",
+        "description": "Oorlog heeft duizenden kinderen in Gaza wees gemaakt. Met uw sponsoring bieden we onderwijs, gezondheidszorg en essentiële ondersteuning.",
+        "urgency": "Sponsor een wees en geef hen een betere toekomst.",
+        "cta": "Sponsor een kind",
+        "benefits": [
+          "Onderwijs en schoolmaterialen",
+          "Toegang tot medische zorg",
+          "Maandelijkse voedselhulp"
+        ]
+      }
+    ]
   }
 }
