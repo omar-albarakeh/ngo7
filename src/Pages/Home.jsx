@@ -4,6 +4,7 @@ import MyNavBar from "../components/NavBar/MyNavBar/MyNavBar";
 import HeroSlider from "../components/HeroSlider/HeroSlider";
 import TaxTip from "../components/TaxTip/TaxTip";
 import YouTube from "../components/Youtube/YouTubeGallery";
+import FeatureSection from "../components/FeatureSection/FeatureSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HeroSlider />
       <TaxTip />
       <YouTube />
+      <FeatureSection />
     </>
   );
 };

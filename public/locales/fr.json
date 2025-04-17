@@ -115,5 +115,50 @@
       "title": "L’espoir grâce à l’aide humanitaire",
       "description": "Chaque repas et chaque geste compte. Rejoignez notre mission pour apporter de l’espoir aux plus démunis."
     }
-  ]
+  ],
+  "features": {
+    "title": "Nos initiatives percutantes",
+    "initiatives": [
+      {
+        "id": "adha2024",
+        "title": "🕌 Bénédictions de l’Aïd Al-Adha 2024 : Partagez le sacrifice, répandez la joie",
+        "description": "Votre Qurbani nourrit les affamés ! Cet Aïd, rejoignez-nous pour livrer de la viande fraîche et nourrissante aux familles démunies, orphelins et réfugiés. Votre sacrifice permet aux plus vulnérables de célébrer l’Aïd avec dignité et joie.",
+        "highlights": [
+          "✅ Nourrissez une famille pour l’Aïd",
+          "✅ Soutenez les veuves & orphelins",
+          "✅ Distribuez de la viande dans les zones de conflit"
+        ],
+        "cta": "Faites un don maintenant et multipliez vos bénédictions !"
+      },
+      {
+        "id": "gazaEmergency",
+        "title": "🚨 Urgence Gaza : Sauvez des vies maintenant !",
+        "description": "Aide d'urgence pour les familles dévastées de Gaza. La crise humanitaire s'aggrave chaque jour – des familles affamées, déplacées, et en besoin urgent de nourriture, d’eau potable et de soins médicaux. Votre don sauve des vies.",
+        "supplies": [
+          "🍞 Packs alimentaires d'urgence",
+          "💊 Fournitures médicales essentielles",
+          "🛏️ Abri & kits de survie"
+        ],
+        "urgency": "Le temps presse – agissez maintenant pour sauver des vies !",
+        "cta": "Faites un don urgent pour Gaza !"
+      },
+      {
+        "id": "ramadanFood",
+        "title": "🌙 Partage alimentaire du Ramadan : Nourrissez les jeûneurs",
+        "description": "Nourrissez les affamés ce Ramadan. Des millions de personnes jeûnent le ventre vide. Notre initiative offre des repas Iftar & Suhoor nutritifs aux familles pauvres, réfugiés et orphelins. Votre générosité apporte des bénédictions et du soulagement.",
+        "benefits": [
+          "📦 Colis alimentaires pour un mois",
+          "🍲 Repas chauds pour l’Iftar",
+          "🫶 Soutenez une famille en jeûne"
+        ],
+        "cta": "Donnez maintenant et gagnez des récompenses divines !"
+      }
+    ],
+    "donationBenefits": {
+      "transparency": "✨ Transparent & digne de confiance – Chaque euro atteint ceux qui en ont besoin.",
+      "impact": "⚡ Impact immédiat – Votre aide sauve des vies aujourd’hui.",
+      "reward": "🖤 Multipliez vos récompenses – Donnez en temps sacré pour des bénédictions accrues."
+    },
+    "finalCta": "Faites un don maintenant et soyez un phare d’espoir !"
+  }
 }

@@ -1,0 +1,123 @@
+/* FeatureSection.css */
+
+.feature-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.activities-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.feature-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  transition: all 0.4s ease;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+}
+
+.feature-text {
+  flex: 1;
+  min-width: 280px;
+  max-width: 600px;
+}
+
+.feature-text h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111;
+  letter-spacing: 0.5px;
+}
+
+.feature-text p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.feature-points {
+  margin: 20px 0;
+  padding-left: 24px;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.feature-points li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+}
+
+.urgency-text {
+  color: #d62828;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.FeatureButton {
+  margin-top: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .feature-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .feature-image {
+    max-width: 100%;
+  }
+
+  .feature-text h2 {
+    font-size: 22px;
+  }
+
+  .feature-text p,
+  .feature-points {
+    font-size: 14px;
+  }
+
+  .feature-points {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+}

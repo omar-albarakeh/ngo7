@@ -115,5 +115,50 @@
       "title": "Hoffnung durch humanitäre Hilfe",
       "description": "Jede Mahlzeit und jede helfende Hand zählt. Sei Teil unserer Mission, Hoffnung zu bringen."
     }
-  ]
+  ],
+  "features": {
+    "title": "Unsere wirkungsvollen Initiativen",
+    "initiatives": [
+      {
+        "id": "adha2024",
+        "title": "🕌 Segen von Adha 2024: Teile das Opfer, verbreite Freude",
+        "description": "Dein Qurbani nährt die Hungrigen! Dieses Adha hilfst du uns, frisches und nahrhaftes Fleisch an arme Familien, Waisen und Flüchtlinge zu liefern. Dein Opfer ermöglicht es Bedürftigen, das Eid-Fest mit Würde und Freude zu feiern.",
+        "highlights": [
+          "✅ Versorge eine Familie zu Eid",
+          "✅ Unterstütze Witwen & Waisen",
+          "✅ Verteile Fleisch in Konfliktzonen"
+        ],
+        "cta": "Jetzt spenden und deinen Segen vervielfachen!"
+      },
+      {
+        "id": "gazaEmergency",
+        "title": "🚨 Notfallhilfe für Gaza: Jetzt Leben retten!",
+        "description": "Dringende Hilfe für die betroffenen Familien in Gaza. Die humanitäre Krise verschärft sich täglich – Menschen hungern, sind obdachlos und brauchen dringend Nahrung, sauberes Wasser und medizinische Versorgung. Deine Spende rettet Leben.",
+        "supplies": [
+          "🍞 Notfall-Lebensmittelpakete",
+          "💊 Wichtige medizinische Versorgung",
+          "🛏️ Unterkünfte & Überlebenssets"
+        ],
+        "urgency": "Die Zeit läuft – handle jetzt, um Leben zu retten!",
+        "cta": "Dringend für Gaza spenden!"
+      },
+      {
+        "id": "ramadanFood",
+        "title": "🌙 Ramadan-Essensverteilung: Die Fastenden nähren",
+        "description": "Speise die Hungrigen im Ramadan. Millionen fasten hungrig. Unsere Initiative liefert nährhafte Iftar- und Suhoor-Mahlzeiten an arme Familien, Flüchtlinge und Waisen. Deine Großzügigkeit bringt Segen und Erleichterung.",
+        "benefits": [
+          "📦 Lebensmittelpakete für einen Monat",
+          "🍲 Warme Iftar-Mahlzeiten",
+          "🫶 Unterstütze eine fastende Familie"
+        ],
+        "cta": "Jetzt geben und göttliche Belohnung verdienen!"
+      }
+    ],
+    "donationBenefits": {
+      "transparency": "✨ Transparent & vertrauenswürdig – Jeder Euro erreicht die Bedürftigen.",
+      "impact": "⚡ Sofortige Wirkung – Deine Hilfe rettet Leben.",
+      "reward": "🖤 Belohnung vervielfachen – Spende in heiligen Zeiten für mehr Segen."
+    },
+    "finalCta": "Spende jetzt und sei ein Hoffnungsträger!"
+  }
 }
