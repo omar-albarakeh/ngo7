@@ -7,6 +7,7 @@ import YouTube from "../components/Youtube/YouTubeGallery";
 import FeatureSection from "../components/FeatureSection/FeatureSection";
 import CardSlider from "../components/cardSlider3d/cardSlider3d";
 import MenuItem from "../components/MenuItem/MenuItem";
+import BacktoTop from "../components/BackToTopButton/BackToTop";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <FeatureSection />
       <CardSlider />
       <MenuItem />
+      <BacktoTop />
     </>
   );
 };
