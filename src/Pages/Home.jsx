@@ -5,6 +5,7 @@ import HeroSlider from "../components/HeroSlider/HeroSlider";
 import TaxTip from "../components/TaxTip/TaxTip";
 import YouTube from "../components/Youtube/YouTubeGallery";
 import FeatureSection from "../components/FeatureSection/FeatureSection";
+import CardSlider from "../components/cardSlider3d/cardSlider3d";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TaxTip />
       <YouTube />
       <FeatureSection />
+      <CardSlider/>
     </>
   );
 };

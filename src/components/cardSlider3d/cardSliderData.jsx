@@ -1,0 +1,111 @@
+// src/data/cardSliderData.js
+
+const sliderImages = [
+  {
+    id: 1,
+    src: "/images/CardSlider/Donation1.jpg",
+    title: "💧 Water For Gaza",
+    description: "Provide clean drinking water to communities in Gaza.",
+    cta: "Donate to Save Lives",
+  },
+  {
+    id: 2,
+    src: "/images/CardSlider/Donation2.jpg",
+    title: "🌙 Ramadan 2025",
+    description: "Support people in need during the holy month of Ramadan.",
+    cta: "Give During Ramadan",
+  },
+  {
+    id: 3,
+    src: "/images/CardSlider/Donation3.jpg",
+    title: "⚡ Rafah Emergency",
+    description: "Help those affected by the ongoing crisis in Rafah.",
+    cta: "Act Now to Help",
+  },
+  {
+    id: 4,
+    src: "/images/CardSlider/Donation4.jpg",
+    title: "🚨 SOS Gaza",
+    description: "Provide urgent support to the people of Gaza.",
+    cta: "Respond to SOS",
+  },
+  {
+    id: 5,
+    src: "/images/CardSlider/Donation5.jpg",
+    title: "👶 Orphan Sponsorship",
+    description: "Sponsor an orphan to help them build a better future.",
+    cta: "Change a Life Today",
+  },
+  {
+    id: 6,
+    src: "/images/CardSlider/Donation6.jpg",
+    title: "💰 Zakat Al Maal",
+    description: "Fulfill your Zakat and support those in need.",
+    cta: "Give Your Zakat",
+  },
+  {
+    id: 7,
+    src: "/images/CardSlider/Donation7.jpg",
+    title: "🐑 Aid-al-Adha Support",
+    description: "Provide food and support during Eid al-Adha.",
+    cta: "Share the Blessings",
+  },
+  {
+    id: 8,
+    src: "/images/CardSlider/Donation8.jpg",
+    title: "🌙 Ramadan 2025",
+    description: "Join us in spreading generosity during Ramadan.",
+    cta: "Give With Love",
+  },
+  {
+    id: 9,
+    src: "/images/CardSlider/Donation9.jpg",
+    title: "💧 Water For Gaza",
+    description: "Help provide clean water to Gaza's vulnerable populations.",
+    cta: "Make a Difference",
+  },
+  {
+    id: 10,
+    src: "/images/CardSlider/Donation10.jpg",
+    title: "👶 Orphan Sponsorship",
+    description: "Sponsor an orphan’s education, food, and healthcare.",
+    cta: "Support an Orphan",
+  },
+  {
+    id: 11,
+    src: "/images/CardSlider/Donation11.jpg",
+    title: "⚡ Rafah Emergency",
+    description: "Provide emergency assistance to families in Rafah.",
+    cta: "Support Emergency Relief",
+  },
+  {
+    id: 12,
+    src: "/images/CardSlider/Donation12.jpg",
+    title: "🌙 Ramadan Donations",
+    description: "Donate during Ramadan to benefit families in need.",
+    cta: "Give This Ramadan",
+  },
+  {
+    id: 13,
+    src: "/images/CardSlider/Donation13.jpg",
+    title: "💧 Water For Gaza",
+    description: "Bring hope and health by providing access to clean water.",
+    cta: "Contribute to Clean Water",
+  },
+  {
+    id: 14,
+    src: "/images/CardSlider/Donation14.jpg",
+    title: "🚨 SOS Gaza",
+    description: "Urgent humanitarian aid for the people of Gaza.",
+    cta: "Respond Now",
+  },
+  {
+    id: 15,
+    src: "/images/CardSlider/Donation15.jpg",
+    title: "🐑 Aid-al-Adha Support",
+    description: "Aid families in need during the Eid al-Adha festival.",
+    cta: "Give During Eid",
+  },
+];
+
+export default sliderImages;
