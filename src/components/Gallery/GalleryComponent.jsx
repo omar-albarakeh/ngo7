@@ -1,179 +1,147 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { useState, useEffect, useRef } from "react";
 import ProjectCard from "./Gallerycards";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
 import "./Gallery.css";
 
 const Projects = () => {
-  const campaigns2025 = [
-    {
-      title: "SOS Gaza",
-      description: "Emergency humanitarian aid and relief for Gaza residents.",
-      imgUrl: "/images/HeroSlider/slide1.png",
-    },
-    {
-      title: "Zakat Al Maal",
-      description:
-        "Fulfill your annual Zakat obligation and help those in need.",
-      imgUrl: "/images/HeroSlider/slide1.png",
-    },
-    {
-      title: "Ramadan 2025",
-      description:
-        "Distribute iftar meals and essential aid during Ramadan 2025.",
-      imgUrl: "/images/HeroSlider/slide1.png",
-    },
-    {
-      title: "Rafah Emergency",
-      description: "Support families affected by the crisis in Rafah.",
-      imgUrl: "/images/HeroSlider/slide1.png",
-    },
-    {
-      title: "Aid-al-Adha",
-      description: "Share your Qurbani with families in need this Aid-al-Adha.",
-      imgUrl: "/images/HeroSlider/slide1.png",
-    },
-    {
-      title: "Orphan Sponsorship",
-      description:
-        "Sponsor an orphan and secure their future with your support.",
-      imgUrl: "/images/HeroSlider/slide1.png",
-    },
-  ];
+  const [activeTab, setActiveTab] = useState("2025");
+  const [selectedImages, setSelectedImages] = useState([]);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [loaded, setLoaded] = useState(false);
+  const touchStartX = useRef(null);
 
-  const campaigns2024 = [
-    {
-      title: "Water For Gaza",
-      description:
-        "Provide access to clean drinking water for Gaza communities.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Zakat Al Maal",
-      description: "Give your Zakat and uplift those struggling in poverty.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "SOS Gaza",
-      description: "Lifesaving emergency response for people in Gaza.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Ramadan Donations",
-      description: "Help families observe Ramadan with dignity and ease.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Orphan Sponsorship",
-      description: "Provide care and education for orphaned children.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Rafah Emergency",
-      description: "Deliver aid to civilians affected by the Rafah crisis.",
-      imgUrl: "/images/slide1.png",
-    },
-  ];
+  const campaigns = {
+    2025: [
+      {
+        title: "SOS Gaza",
+        description: "Emergency humanitarian aid and relief for Gaza residents.",
+        images: [
+          "/images/WaterGaza2024/img1.jpg",
+          "/images/WaterGaza2024/img2.jpg",
+        ],
+      },
+      // other campaigns...
+    ],
+    // other years...
+  };
 
-  const campaigns2023 = [
-    {
-      title: "Ramadan Donations",
-      description: "Join us in delivering Ramadan essentials to those in need.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Water For Gaza",
-      description: "Ensure clean water access to families in Gaza.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Zakat Al Maal",
-      description: "Distribute Zakat funds to support the most vulnerable.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Orphan Sponsorship",
-      description: "Be the reason an orphan thrives and smiles again.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "SOS Gaza",
-      description: "Deliver emergency aid to Gaza amidst urgent needs.",
-      imgUrl: "/images/slide1.png",
-    },
-    {
-      title: "Aid-al-Adha",
-      description: "Support Eid sacrifice programs for needy families.",
-      imgUrl: "/images/slide1.png",
-    },
-  ];
+  const handleCardClick = (images) => {
+    setSelectedImages(images);
+    setCurrentImageIndex(0);
+  };
+
+  const closeModal = () => {
+    setSelectedImages([]);
+    setLoaded(false);
+  };
+
+  const handlePrev = () => {
+    setLoaded(false);
+    setCurrentImageIndex((prev) =>
+      prev === 0 ? selectedImages.length - 1 : prev - 1
+    );
+  };
+
+  const handleNext = () => {
+    setLoaded(false);
+    setCurrentImageIndex((prev) =>
+      prev === selectedImages.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  // Keyboard Navigation
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (selectedImages.length === 0) return;
+      if (e.key === "ArrowLeft") handlePrev();
+      else if (e.key === "ArrowRight") handleNext();
+      else if (e.key === "Escape") closeModal();
+    };
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [selectedImages]);
+
+  // Swipe (Touch) Navigation
+  const handleTouchStart = (e) => (touchStartX.current = e.touches[0].clientX);
+  const handleTouchEnd = (e) => {
+    if (touchStartX.current === null) return;
+    const diff = touchStartX.current - e.changedTouches[0].clientX;
+    if (diff > 50) handleNext();
+    else if (diff < -50) handlePrev();
+    touchStartX.current = null;
+  };
 
   return (
     <section className="project" id="projects">
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }>
-                  <h2>Our Donation Campaigns</h2>
-                  <p>
-                    Explore our ongoing and past initiatives focused on
-                    humanitarian aid and development. Click on any project to
-                    learn more about how your support makes an impact.
-                  </p>
-                  <Tab.Container id="projects-tabs" defaultActiveKey="2025">
-                    <Nav
-                      variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
-                      id="pills-tab">
-                      <Nav.Item>
-                        <Nav.Link eventKey="2025">2025</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="2024">2024</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="2023">2023</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
-                    <Tab.Content
-                      id="slideInUp"
-                      className={
-                        isVisible ? "animate__animated animate__slideInUp" : ""
-                      }>
-                      <Tab.Pane eventKey="2025">
-                        <Row>
-                          {campaigns2025.map((project, index) => (
-                            <ProjectCard key={index} {...project} />
-                          ))}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="2024">
-                        <Row>
-                          {campaigns2024.map((project, index) => (
-                            <ProjectCard key={index} {...project} />
-                          ))}
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="2023">
-                        <Row>
-                          {campaigns2023.map((project, index) => (
-                            <ProjectCard key={index} {...project} />
-                          ))}
-                        </Row>
-                      </Tab.Pane>
-                    </Tab.Content>
-                  </Tab.Container>
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
+      <div className="container">
+        <h2>Our Donation Campaigns</h2>
+        <p>
+          Explore our ongoing and past initiatives focused on humanitarian aid
+          and development. Click on any project to view more.
+        </p>
+
+        <ul className="tab-nav">
+          {["2025", "2024", "2023"].map((year) => (
+            <li
+              key={year}
+              className={activeTab === year ? "active" : ""}
+              onClick={() => setActiveTab(year)}
+            >
+              {year}
+            </li>
+          ))}
+        </ul>
+
+        <div className="tab-content">
+          <div className="row">
+            {campaigns[activeTab].map((project, index) => (
+              <ProjectCard
+                key={index}
+                title={project.title}
+                description={project.description}
+                imgUrl={project.images[0]}
+                onClick={() => handleCardClick(project.images)}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Modal for displaying images */}
+      {selectedImages.length > 0 && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div
+            className="modal-content"
+            onClick={(e) => e.stopPropagation()}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+          >
+            <span className="close-button" onClick={closeModal}>
+              &times;
+            </span>
+
+            <div className="modal-image">
+              <img
+                src={selectedImages[currentImageIndex]}
+                alt={`Gallery ${currentImageIndex}`}
+                onLoad={() => setLoaded(true)}
+                className={loaded ? "loaded" : ""}
+              />
+              <div className="image-counter">
+                {currentImageIndex + 1} / {selectedImages.length}
+              </div>
+            </div>
+
+            <div className="modal-nav">
+              <button onClick={handlePrev} aria-label="Previous image">
+                &#8592;
+              </button>
+              <button onClick={handleNext} aria-label="Next image">
+                &#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

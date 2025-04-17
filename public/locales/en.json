@@ -290,8 +290,8 @@
     }
   },
   "contact": {
-    "title": "Connect with Us",
-    "description": "This form connects donors and volunteers with NGOs making a real impact. Fill it out — we’d love to hear from you and collaborate for change!",
+    "title": "Connect Us",
+    "description": "we’d love to hear from you and collaborate for change!",
     "emailLabel": "Email Address",
     "emailPlaceholder": "you@example.com",
     "messageLabel": "Message",

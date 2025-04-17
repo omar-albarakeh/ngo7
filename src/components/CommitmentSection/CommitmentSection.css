@@ -54,3 +54,9 @@
   transition: width 0.2s linear;
   border-radius: 7px;
 }
+
+.commitment-chart {
+  flex: 1 1 300px;
+  min-width: 300px;
+  height: 300px;
+}

@@ -5,22 +5,24 @@ import "./AboutAssociation.css";
 const AboutAssociation = () => {
   const { t } = useTranslation();
 
+  const paragraphs = ["p1", "p2", "p3", "p4", "p5"].map((key, index) => (
+    <p key={index}>{t(`about.${key}`)}</p>
+  ));
+
   return (
-    <section className="about-container">
+    <section className="about-container fade-in">
       <h2 className="about-title">
         {t("about.title")} <span>{t("about.name")}</span>
       </h2>
 
-      <blockquote className="about-quote">{t("about.quote")}</blockquote>
+      <figure className="about-quote-block">
+        <blockquote>{t("about.quote")}</blockquote>
+      </figure>
 
-      <div className="about-content">
-        <p>{t("about.p1")}</p>
-        <p>{t("about.p2")}</p>
-        <p>{t("about.p3")}</p>
-        <p>{t("about.p4")}</p>
-        <p>{t("about.p5")}</p>
+      <article className="about-content">
+        {paragraphs}
         <p className="about-conclusion">{t("about.conclusion")}</p>
-      </div>
+      </article>
     </section>
   );
 };

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import History from "./Pages/History";
 import Gallery from "./Pages/Gallery";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const { i18n } = useTranslation();

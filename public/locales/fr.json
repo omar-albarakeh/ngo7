@@ -291,7 +291,7 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "description": "Ce formulaire relie les donateurs et les bénévoles aux ONG qui ont un réel impact. Remplissez-le — nous serions ravis d’avoir de vos nouvelles et de collaborer pour le changement !",
+    "description": "Nous serions ravis d’avoir de vos nouvelles et de collaborer pour le changement !",
     "emailLabel": "Adresse e-mail",
     "emailPlaceholder": "you@example.com",
     "messageLabel": "Message",

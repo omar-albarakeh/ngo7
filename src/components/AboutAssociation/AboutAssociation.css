@@ -1,26 +1,27 @@
 :root {
-  --top-bg: #f2ede4;
-  --text-color: #000000;
+  --top-bg: #f9f9f7;
+  --text-color: #111;
   --icon-color: #999;
   --primary-green: #4caf50;
-  --secondary-green: #367138;
+  --secondary-green: #2e7d32;
+  --highlight-bg: #e7f5ea;
+  --max-width: 900px;
 }
 
 .about-container {
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: var(--max-width);
+  margin: 2rem auto;
   padding: 2rem;
   font-family: "Helvetica Neue", sans-serif;
   color: var(--text-color);
   background-color: var(--top-bg);
   border-radius: 16px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
 }
 
 .about-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
   color: var(--text-color);
@@ -30,19 +31,25 @@
   color: var(--secondary-green);
 }
 
-.about-quote {
-  font-style: italic;
-  font-size: 1.1rem;
+.about-quote-block {
   margin: 1rem 0 2rem;
   padding-left: 1rem;
   border-left: 4px solid var(--primary-green);
+  background: var(--highlight-bg);
+  font-style: italic;
+}
+
+.about-quote-block blockquote {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 1rem;
   color: var(--text-color);
-  background: #e7f5ea;
 }
 
 .about-content p {
   margin-bottom: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 1.05rem;
 }
 
 .about-content strong {
@@ -50,7 +57,43 @@
 }
 
 .about-conclusion {
-  font-weight: 500;
-  font-size: 1.05rem;
+  font-weight: 600;
+  font-size: 1.1rem;
   margin-top: 2rem;
+  color: var(--secondary-green);
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .about-container {
+    padding: 1.5rem;
+  }
+
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .about-quote-block blockquote {
+    font-size: 1rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
 }
