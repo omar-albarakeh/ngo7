@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./cardSlider3d.css";
-import sliderImages from "./cardSliderData";
+import useSliderImages from "./cardSliderData"; // <- note: it's a hook!
 
 const CardSlider = () => {
+  const images = useSliderImages(); // ✅ call the hook here
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
   const intervalRef = useRef(null);
-  const totalSlides = sliderImages.length;
+  const totalSlides = images.length;
 
   const goToNext = () => {
     setCurrentIndex((prev) => (prev + 1) % totalSlides);
@@ -65,7 +66,7 @@ const CardSlider = () => {
         className="slider-wrapper"
         onMouseEnter={() => setAutoPlay(false)}
         onMouseLeave={() => setAutoPlay(true)}>
-        {sliderImages.map((image, index) => (
+        {images.map((image, index) => (
           <div
             key={image.id}
             className={`slide ${index === currentIndex ? "active" : ""}`}
@@ -87,7 +88,7 @@ const CardSlider = () => {
       </div>
 
       <div className="slider-dots">
-        {sliderImages.map((_, index) => (
+        {images.map((_, index) => (
           <button
             key={index}
             className={`dot ${index === currentIndex ? "active" : ""}`}

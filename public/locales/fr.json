@@ -158,5 +158,66 @@
       "reward": "🖤 Multipliez vos récompenses – Donnez en temps sacré pour des bénédictions accrues."
     },
     "finalCta": "Faites un don maintenant et soyez un phare d’espoir !"
+  },
+  "sliderB": {
+    "water_for_gaza_title": "💧 De l’eau pour Gaza",
+    "water_for_gaza_description": "Aidez à fournir de l'eau potable aux familles à Gaza. 🚰",
+    "water_for_gaza_cta": "💙 Faire un don d’eau",
+
+    "ramadan_2025_title": "🌙 Appel du Ramadan 2025",
+    "ramadan_2025_description": "Soutenez les familles jeûnant avec des aliments et produits essentiels. 🍽️🕌",
+    "ramadan_2025_cta": "🤲 Faire un don pour le Ramadan",
+
+    "rafah_emergency_title": "🚨 Urgence à Rafah",
+    "rafah_emergency_description": "Aide urgente requise pour les familles déplacées à Rafah. 🆘",
+    "rafah_emergency_cta": "📦 Soutenir maintenant",
+
+    "sos_gaza_title": "🆘 SOS Gaza",
+    "sos_gaza_description": "Fournissez des fournitures urgentes et de l’aide médicale à Gaza. 🚑",
+    "sos_gaza_cta": "❤️ Aider Gaza",
+
+    "orphan_sponsorship_title": "👶 Parrainer un orphelin",
+    "orphan_sponsorship_description": "Changez la vie d’un enfant en devenant parrain. 🌟",
+    "orphan_sponsorship_cta": "👼 Parrainer maintenant",
+
+    "zakat_maal_title": "💰 Zakat al-Maal",
+    "zakat_maal_description": "Remplissez votre obligation et purifiez votre richesse. 🕌",
+    "zakat_maal_cta": "🫱 Donner la zakat",
+
+    "aid_al_adha_title": "🕋 Qurbani pour l’Aïd al-Adha",
+    "aid_al_adha_description": "Offrez votre sacrifice pour nourrir des familles dans le besoin. 🐄🍛",
+    "aid_al_adha_cta": "🕊️ Faire un Qurbani",
+
+    "ramadan_2025_title_2": "🥘 Paniers alimentaires Ramadan",
+    "ramadan_2025_description_2": "Distribuez des paniers alimentaires aux plus vulnérables. 📦",
+    "ramadan_2025_cta_2": "🛍️ Fournir un panier",
+
+    "water_for_gaza_title_2": "🚿 Projet de réservoirs d’eau à Gaza",
+    "water_for_gaza_description_2": "Aidez-nous à installer des réservoirs d’eau dans les zones les plus touchées. 🛠️",
+    "water_for_gaza_cta_2": "🧱 Construire un réservoir",
+
+    "orphan_sponsorship_title_2": "📅 Soutien mensuel aux orphelins",
+    "orphan_sponsorship_description_2": "Offrez un soutien mensuel régulier aux orphelins. 💞",
+    "orphan_sponsorship_cta_2": "🧸 Parrainage mensuel",
+
+    "rafah_emergency_title_2": "🏚️ Aide d'urgence à Rafah",
+    "rafah_emergency_description_2": "Distribuez des kits d'urgence aux déplacés. 🎒",
+    "rafah_emergency_cta_2": "🚚 Envoyer de l’aide",
+
+    "ramadan_donations_title": "🎁 Dons de Ramadan",
+    "ramadan_donations_description": "Faites un don là où cela compte vraiment pendant Ramadan. 💖",
+    "ramadan_donations_cta": "💝 Donner généreusement",
+
+    "water_for_gaza_title_3": "🌊 Initiative pour l’eau potable",
+    "water_for_gaza_description_3": "Participez à fournir des solutions durables d’eau. 🧪",
+    "water_for_gaza_cta_3": "🌍 Rejoindre l’initiative",
+
+    "sos_gaza_title_2": "🏥 Aide médicale d’urgence",
+    "sos_gaza_description_2": "Financez les traitements critiques pour les blessés à Gaza. 💉",
+    "sos_gaza_cta_2": "🚑 Fournir des soins",
+
+    "aid_al_adha_title_2": "🐐 Sacrifice de l’Aïd",
+    "aid_al_adha_description_2": "Offrez votre sacrifice pour nourrir pendant l’Aïd. 🍲",
+    "aid_al_adha_cta_2": "🙏 Faire un sacrifice"
   }
 }

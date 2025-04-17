@@ -16,7 +16,7 @@ const Home = () => {
       <TaxTip />
       <YouTube />
       <FeatureSection />
-      <CardSlider/>
+      <CardSlider />
     </>
   );
 };

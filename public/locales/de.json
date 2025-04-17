@@ -158,5 +158,66 @@
       "reward": "🖤 Belohnung vervielfachen – Spende in heiligen Zeiten für mehr Segen."
     },
     "finalCta": "Spende jetzt und sei ein Hoffnungsträger!"
+  },
+  "sliderB": {
+    "water_for_gaza_title": "💧 Wasser für Gaza",
+    "water_for_gaza_description": "Hilf dabei, sauberes Trinkwasser für Familien in Gaza bereitzustellen. 🚰",
+    "water_for_gaza_cta": "💙 Wasser spenden",
+
+    "ramadan_2025_title": "🌙 Ramadan 2025 Aufruf",
+    "ramadan_2025_description": "Unterstütze fastende Familien mit Lebensmitteln und dem Nötigsten. 🍽️🕌",
+    "ramadan_2025_cta": "🤲 Für Ramadan spenden",
+
+    "rafah_emergency_title": "🚨 Rafah Notfall",
+    "rafah_emergency_description": "Dringende Hilfe für Familien in Rafah benötigt. 🆘",
+    "rafah_emergency_cta": "📦 Jetzt helfen",
+
+    "sos_gaza_title": "🆘 SOS Gaza",
+    "sos_gaza_description": "Liefern Sie dringend benötigte Hilfsgüter und medizinische Versorgung nach Gaza. 🚑",
+    "sos_gaza_cta": "❤️ Gaza helfen",
+
+    "orphan_sponsorship_title": "👶 Werde Pate für ein Waisenkind",
+    "orphan_sponsorship_description": "Verändere das Leben eines Kindes durch deine Unterstützung. 🌟",
+    "orphan_sponsorship_cta": "👼 Jetzt Pate werden",
+
+    "zakat_maal_title": "💰 Zakat al-Maal",
+    "zakat_maal_description": "Erfülle deine Pflicht und reinige dein Vermögen. 🕌",
+    "zakat_maal_cta": "🫱 Zakat geben",
+
+    "aid_al_adha_title": "🕋 Opfergabe zu Eid al-Adha",
+    "aid_al_adha_description": "Gib deine Qurbani und ernähre bedürftige Familien. 🐄🍛",
+    "aid_al_adha_cta": "🕊️ Qurbani spenden",
+
+    "ramadan_2025_title_2": "🥘 Ramadan Lebensmittelpakete",
+    "ramadan_2025_description_2": "Versorge die Bedürftigsten mit Lebensmitteln im Ramadan. 📦",
+    "ramadan_2025_cta_2": "🛍️ Paket bereitstellen",
+
+    "water_for_gaza_title_2": "🚿 Gaza Wassertank-Projekt",
+    "water_for_gaza_description_2": "Hilf beim Bau von Wassertanks in besonders betroffenen Gebieten. 🛠️",
+    "water_for_gaza_cta_2": "🧱 Tank bauen",
+
+    "orphan_sponsorship_title_2": "📅 Monatliche Waisenunterstützung",
+    "orphan_sponsorship_description_2": "Leiste regelmäßige Hilfe für Waisenkinder. 💞",
+    "orphan_sponsorship_cta_2": "🧸 Monatlich unterstützen",
+
+    "rafah_emergency_title_2": "🏚️ Rafah Krisenhilfe",
+    "rafah_emergency_description_2": "Stelle Nothilfepakete für Vertriebene bereit. 🎒",
+    "rafah_emergency_cta_2": "🚚 Hilfe senden",
+
+    "ramadan_donations_title": "🎁 Ramadan Spenden",
+    "ramadan_donations_description": "Lass deine Spenden dort ankommen, wo sie am meisten gebraucht werden. 💖",
+    "ramadan_donations_cta": "💝 Großzügig spenden",
+
+    "water_for_gaza_title_3": "🌊 Sauberes Wasser Initiative",
+    "water_for_gaza_description_3": "Mach mit bei der Bereitstellung nachhaltiger Wasserlösungen. 🧪",
+    "water_for_gaza_cta_3": "🌍 Initiative beitreten",
+
+    "sos_gaza_title_2": "🏥 Medizinische Notfallhilfe",
+    "sos_gaza_description_2": "Finanziere lebenswichtige Behandlungen für Verletzte. 💉",
+    "sos_gaza_cta_2": "🚑 Medizinische Hilfe leisten",
+
+    "aid_al_adha_title_2": "🐐 Opfergabe zum Adha-Fest",
+    "aid_al_adha_description_2": "Opfere ein Tier, um Bedürftige zu ernähren. 🍲",
+    "aid_al_adha_cta_2": "🙏 Opfer bringen"
   }
 }
