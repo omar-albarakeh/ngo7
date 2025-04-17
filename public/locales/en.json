@@ -288,5 +288,73 @@
       "waterForGaza": "Water for Gaza",
       "ramadanDonations": "Ramadan Donations"
     }
+  },
+  "contact": {
+    "title": "Connect with Us",
+    "description": "This form connects donors and volunteers with NGOs making a real impact. Fill it out — we’d love to hear from you and collaborate for change!",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "recaptchaNote": "This site is protected by reCAPTCHA and the Google",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "successMessage": "✅ Thanks for your message!",
+    "sendAnother": "Send Another Message",
+    "goHome": "Go to Homepage",
+    "captchaFailed": "Captcha verification failed. Please try again."
+  },
+  "donate": {
+    "heading": "Together, We Rise",
+    "text": "When we give as one, we uplift everyone. Your support is a light in someone’s darkest hour. Stand with us, because every hand extended is a soul embraced.",
+    "button": "Join the Cause"
+  },
+  "whoWeAre": {
+    "title": "WHO ARE WE?",
+    "highlight": "We’re here to help Palestinian families survive—and rebuild—with dignity.",
+    "whatWeDo": "What We Do",
+    "bulletPoints": {
+      "sos": "SOS Gaza – Emergency support and humanitarian relief for families affected by the crisis in Gaza.",
+      "zakat": "Zakat Al-Maal – Fulfill your annual obligation by donating your Zakat to those in need, in accordance with Islamic principles.",
+      "eid": "Aid Al-Adha – Share the blessings of Eid by contributing to Qurbani/Udhiya meat distribution for impoverished families.",
+      "orphans": "Orphan Sponsorship – Provide essential support, education, and care to orphans for a brighter and more stable future.",
+      "water": "Water for Gaza – Help deliver clean and safe drinking water to communities suffering from water scarcity in Gaza.",
+      "ramadan": "Ramadan Donations – Maximize your impact during the holy month by donating food, iftar meals, and essentials to those fasting in hardship."
+    },
+    "whyItMatters": "Why It Matters",
+    "whyItMattersText": "Every day, innocent people face unimaginable hardships. With your help, we bring relief and hope where it’s needed most.",
+    "joinMovement": "Join the Movement",
+    "joinMovementText": "Your support means everything. Together, we can build a future where every Palestinian has access to basic human rights—and a chance to thrive.",
+    "donateButton": "MAKE A DONATION"
+  },
+  "ourApproach": {
+    "title": "OUR APPROACH",
+    "leftSection": {
+      "heading": "Together, we can create real change.",
+      "paragraph1": "By uniting our efforts, we can make a powerful impact on the lives of Palestinians and help them shape a brighter, more hopeful future.",
+      "paragraph2": "Your support plays a vital role in driving our mission forward. Whether through a financial donation or by offering your time as a volunteer, your involvement matters deeply.",
+      "paragraph3": "To truly make a difference, we invite you to stand with us—through giving or volunteering—because every contribution helps build a future filled with dignity and opportunity."
+    },
+    "rightSection": {
+      "items": [
+        {
+          "number": "01.",
+          "title": "— Our Mission",
+          "text": "We are dedicated to improving the daily lives of Palestinians by providing essential resources, promoting education, and restoring dignity through sustainable support."
+        },
+        {
+          "number": "02.",
+          "title": "— Our Vision",
+          "text": "We envision a world where Palestinians can overcome adversity, reclaim their rights, and thrive in a safe, stable, and just environment."
+        },
+        {
+          "number": "03.",
+          "title": "— Our Story",
+          "text": "SOS Palestine was founded with a single purpose: to stand in solidarity with Palestinians by offering real support, fostering resilience, and giving voice to their hopes for a better tomorrow."
+        }
+      ]
+    }
   }
 }

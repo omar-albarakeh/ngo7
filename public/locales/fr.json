@@ -288,5 +288,73 @@
       "waterForGaza": "Eau pour Gaza",
       "ramadanDonations": "Dons de Ramadan"
     }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Ce formulaire relie les donateurs et les bénévoles aux ONG qui ont un réel impact. Remplissez-le — nous serions ravis d’avoir de vos nouvelles et de collaborer pour le changement !",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Écrivez votre message ici...",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "recaptchaNote": "Ce site est protégé par reCAPTCHA et les",
+    "privacyPolicy": "Règles de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "successMessage": "✅ Merci pour votre message !",
+    "sendAnother": "Envoyer un autre message",
+    "goHome": "Aller à la page d’accueil",
+    "captchaFailed": "La vérification du captcha a échoué. Veuillez réessayer."
+  },
+  "donate": {
+    "heading": "Ensemble, Nous Élevons",
+    "text": "Lorsque nous donnons à l’unisson, nous élevons tout le monde. Votre soutien est une lumière dans l’heure la plus sombre de quelqu’un. Soyez à nos côtés, car chaque main tendue est une âme embrassée.",
+    "button": "Rejoindre la Cause"
+  },
+  "whoWeAre": {
+    "title": "QUI SOMMES-NOUS ?",
+    "highlight": "Nous sommes là pour aider les familles palestiniennes à survivre — et à se reconstruire — avec dignité.",
+    "whatWeDo": "Ce que nous faisons",
+    "bulletPoints": {
+      "sos": "SOS Gaza – Soutien d'urgence et aide humanitaire pour les familles touchées par la crise à Gaza.",
+      "zakat": "Zakat Al-Maal – Remplissez votre obligation annuelle en faisant don de votre Zakat à ceux qui en ont besoin, selon les principes islamiques.",
+      "eid": "Aïd Al-Adha – Partagez les bénédictions de l'Aïd en contribuant à la distribution de viande de Qurbani/Udhiya aux familles démunies.",
+      "orphans": "Parrainage d'orphelins – Offrez un soutien essentiel, une éducation et des soins aux orphelins pour un avenir meilleur et plus stable.",
+      "water": "Eau pour Gaza – Aidez à fournir de l'eau potable propre et sûre aux communautés souffrant de pénurie d'eau à Gaza.",
+      "ramadan": "Dons de Ramadan – Maximisez votre impact pendant le mois sacré en faisant don de nourriture, de repas d'iftar et d'essentiels aux personnes qui jeûnent dans la difficulté."
+    },
+    "whyItMatters": "Pourquoi c'est important",
+    "whyItMattersText": "Chaque jour, des innocents affrontent des épreuves inimaginables. Grâce à votre aide, nous apportons soulagement et espoir là où le besoin est le plus grand.",
+    "joinMovement": "Rejoignez le mouvement",
+    "joinMovementText": "Votre soutien est essentiel. Ensemble, nous pouvons bâtir un avenir où chaque Palestinien a accès aux droits humains fondamentaux — et à une chance de prospérer.",
+    "donateButton": "FAIRE UN DON"
+  },
+  "ourApproach": {
+    "title": "NOTRE APPROCHE",
+    "leftSection": {
+      "heading": "Ensemble, nous pouvons créer un véritable changement.",
+      "paragraph1": "En unissant nos efforts, nous pouvons avoir un impact puissant sur la vie des Palestiniens et les aider à façonner un avenir plus lumineux et plein d'espoir.",
+      "paragraph2": "Votre soutien joue un rôle vital dans l'avancement de notre mission. Que ce soit par un don financier ou en offrant votre temps en tant que bénévole, votre implication est essentielle.",
+      "paragraph3": "Pour faire une réelle différence, nous vous invitons à vous joindre à nous — par un don ou un bénévolat — car chaque contribution contribue à bâtir un avenir plein de dignité et d'opportunités."
+    },
+    "rightSection": {
+      "items": [
+        {
+          "number": "01.",
+          "title": "— Notre mission",
+          "text": "Nous nous engageons à améliorer la vie quotidienne des Palestiniens en fournissant des ressources essentielles, en favorisant l'éducation et en restauring la dignité grâce à un soutien durable."
+        },
+        {
+          "number": "02.",
+          "title": "— Notre vision",
+          "text": "Nous imaginons un monde où les Palestiniens peuvent surmonter l'adversité, récupérer leurs droits et prospérer dans un environnement sûr, stable et juste."
+        },
+        {
+          "number": "03.",
+          "title": "— Notre histoire",
+          "text": "SOS Palestine a été fondée avec un seul objectif : se tenir aux côtés des Palestiniens en offrant un soutien réel, en favorisant la résilience et en donnant voix à leurs espoirs pour un avenir meilleur."
+        }
+      ]
+    }
   }
 }

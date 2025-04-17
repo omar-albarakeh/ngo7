@@ -288,5 +288,73 @@
       "waterForGaza": "Wasser für Gaza",
       "ramadanDonations": "Ramadan-Spenden"
     }
+  },
+  "contact": {
+    "title": "Neem contact met ons op",
+    "description": "Dit formulier verbindt donateurs en vrijwilligers met NGO’s die echt impact maken. Vul het in — we horen graag van je en willen graag samenwerken voor verandering!",
+    "emailLabel": "E-mailadres",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Schrijf hier je bericht...",
+    "send": "Bericht verzenden",
+    "sending": "Bezig met verzenden...",
+    "recaptchaNote": "Deze site wordt beschermd door reCAPTCHA en het",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfService": "Servicevoorwaarden",
+    "successMessage": "✅ Bedankt voor je bericht!",
+    "sendAnother": "Nog een bericht verzenden",
+    "goHome": "Ga naar de startpagina",
+    "captchaFailed": "Captcha-verificatie mislukt. Probeer het opnieuw."
+  },
+  "donate": {
+    "heading": "Samen Staan We Sterk",
+    "text": "Als we samen geven, tillen we iedereen op. Jouw steun is een licht in iemands donkerste uur. Sta met ons, want elke uitgestoken hand is een omhelzing van een ziel.",
+    "button": "Steun de Zaak"
+  },
+  "whoWeAre": {
+    "title": "WIE ZIJN WIJ?",
+    "highlight": "Wij zijn hier om Palestijnse families te helpen overleven — en waardig opnieuw op te bouwen.",
+    "whatWeDo": "Wat We Doen",
+    "bulletPoints": {
+      "sos": "SOS Gaza – Noodhulp en humanitaire steun voor gezinnen getroffen door de crisis in Gaza.",
+      "zakat": "Zakat Al-Maal – Vervul je jaarlijkse verplichting door je Zakat te doneren aan mensen in nood, volgens islamitische principes.",
+      "eid": "Eid Al-Adha – Deel de zegeningen van Eid door bij te dragen aan het verdelen van Qurbani/Udhiya vlees aan arme families.",
+      "orphans": "Weeskind Sponsoring – Bied essentiële steun, onderwijs en zorg aan weeskinderen voor een betere en stabielere toekomst.",
+      "water": "Water voor Gaza – Help met het leveren van schoon en veilig drinkwater aan gemeenschappen die lijden onder waterschaarste in Gaza.",
+      "ramadan": "Ramadan Donaties – Vergroot je impact tijdens de heilige maand door voedsel, iftar-maaltijden en benodigdheden te doneren aan mensen die in moeilijke omstandigheden vasten."
+    },
+    "whyItMatters": "Waarom Het Belangrijk Is",
+    "whyItMattersText": "Elke dag worden onschuldige mensen geconfronteerd met onvoorstelbare moeilijkheden. Met jouw hulp brengen we verlichting en hoop waar dat het meest nodig is.",
+    "joinMovement": "Sluit Je Aan Bij De Beweging",
+    "joinMovementText": "Jouw steun betekent alles. Samen kunnen we een toekomst opbouwen waarin elke Palestijn toegang heeft tot basisrechten — en een kans om te bloeien.",
+    "donateButton": "DONEER NU"
+  },
+  "ourApproach": {
+    "title": "ONZE AANPAK",
+    "leftSection": {
+      "heading": "Samen kunnen we een echt verschil maken.",
+      "paragraph1": "Door onze krachten te bundelen, kunnen we een krachtige impact maken op het leven van Palestijnen en hen helpen een beter en hoopvoller toekomst op te bouwen.",
+      "paragraph2": "Jouw steun speelt een cruciale rol in het bevorderen van onze missie. Of het nu gaat om een financiële donatie of door tijd te schenken als vrijwilliger, jouw betrokkenheid is van groot belang.",
+      "paragraph3": "Om echt verschil te maken, nodigen wij je uit om ons te steunen — door te doneren of door vrijwilliger te worden — omdat elke bijdrage helpt om een toekomst vol waardigheid en kansen op te bouwen."
+    },
+    "rightSection": {
+      "items": [
+        {
+          "number": "01.",
+          "title": "— Onze missie",
+          "text": "Wij zetten ons in om de dagelijkse levensomstandigheden van Palestijnen te verbeteren door essentiële middelen te bieden, onderwijs te bevorderen en waardigheid terug te geven door duurzame steun."
+        },
+        {
+          "number": "02.",
+          "title": "— Onze visie",
+          "text": "Onze visie is om Palestijnen te helpen de uitdagingen te overwinnen, hun rechten terug te krijgen en te bloeien in een veilige, stabiele en rechtvaardige omgeving."
+        },
+        {
+          "number": "03.",
+          "title": "— Ons verhaal",
+          "text": "SOS Palestina is opgericht met één doel: solidariteit te tonen met Palestijnen door echte steun te bieden, veerkracht te bevorderen en hun hoop op een betere toekomst een stem te geven."
+        }
+      ]
+    }
   }
 }
