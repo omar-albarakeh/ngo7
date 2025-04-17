@@ -8,6 +8,7 @@ import BottomBar from "../components/BottomBar/BottomBar";
 import Parallelscreen from "../components/parallelscreen/Donate";
 import { useTranslation } from "react-i18next";
 import FeatureSection2 from "../components/FeatureSectionB/FeatureSectionB";
+import AboutAssociation from "../components/AboutAssociation/AboutAssociation";
 const Home = () => {
   const { t } = useTranslation();
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         buttonTitle={t("donate.button")}
         buttonLink="/donation"
       />
+      <AboutAssociation />
       <FeatureSection2 />
       <CharityQuote />
       <BacktoTop />

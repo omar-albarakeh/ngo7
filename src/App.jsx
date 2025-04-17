@@ -7,6 +7,8 @@ import Contact from "./Pages/Contact/ContactComponent";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import History from "./Pages/History";
+import Gallery from "./Pages/Gallery";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const { i18n } = useTranslation();
@@ -24,6 +26,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/WhoWeAre" element={<Whoweare />} />
         <Route path="/history" element={<History />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   );

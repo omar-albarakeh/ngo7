@@ -426,5 +426,16 @@
         ]
       }
     ]
+  },
+  "about": {
+    "title": "À propos de l’association",
+    "name": "SOS Humanistes / SOS Palestine",
+    "quote": "“Animés par notre devoir humain et guidés par une foi profonde en la justice de notre cause, nous œuvrons avec détermination pour être un soutien constant à notre peuple palestinien, à Gaza et dans les camps, en temps de paix comme en temps de guerre.”",
+    "p1": "Fondée officiellement en septembre 2022, SOS Humanistes / SOS Palestine est basée en France, avec un bureau opérationnel sur le terrain dans la bande de Gaza.",
+    "p2": "Notre bureau à Gaza est animé par une équipe locale expérimentée, active 24h/24 et 7j/7, assurant une présence permanente pour répondre aux urgences, gérer les projets et soutenir les familles sans interruption.",
+    "p3": "Même si l’association est jeune administrativement, elle repose sur plus de 13 ans d’expérience humanitaire réelle et engagée.",
+    "p4": "Nous apportons une aide complète : colis alimentaires, médicaments, aides financières, vêtements pour enfants, parrainages d’orphelins, campagnes de Ramadan, qurbani, et interventions d’urgence lors des conflits.",
+    "p5": "En période de guerre, nous intervenons quotidiennement, heure par heure, grâce à notre présence directe sur le terrain. Notre équipe à Gaza agit immédiatement, tandis que nos bénévoles en France mobilisent les ressources nécessaires.",
+    "conclusion": "Chez SOS Humanistes / SOS Palestine, nous croyons que la solidarité ne dort jamais, et que soutenir la Palestine est un devoir sacré que nous accomplissons avec cœur et détermination."
   }
 }
