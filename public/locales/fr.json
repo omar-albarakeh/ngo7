@@ -247,5 +247,29 @@
       "subtitle": "À Gaza, plus de 90 % de l’eau du robinet est impropre à la consommation en raison d’une salinité et d’une pollution extrêmes. La contamination des nappes phréatiques dépasse 96 %. Aidez-nous à fournir une eau potable et sûre, source de vie pour des milliers de familles."
     },
     "learnMore": "Faire un don"
-  }
+  },
+  "footer": {
+    "followUs": "Suivez-nous :",
+    "contact": "Contact",
+    "address": "7 Rue de Pfastatt, 68110 Illzach, France",
+    "email": "contact@sospalestine.fr",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Restez informé de nos actions et actualités. Entrez votre e-mail ci-dessous :",
+      "placeholder": "Votre e-mail",
+      "button": "S'inscrire"
+    }
+  },
+  "charityQuotes": [
+    "Donne, non pas par abondance, mais par foi — car chaque goutte donnée au nom d’Allah revient en océans de miséricorde.",
+    "La charité éteint les péchés comme l'eau éteint le feu — que ta générosité soit ton bouclier ici-bas et dans l'au-delà.",
+    "Même un sourire est une aumône — imagine alors la récompense de nourrir un affamé ou vêtir un pauvre.",
+    "Les mains qui donnent pour Allah ne sont jamais vides — elles sont soutenues par les anges.",
+    "Le jour du Jugement, ta charité sera ton ombre — donne aujourd’hui, repose-toi demain.",
+    "Le croyant n’est véritablement croyant que lorsqu’il aime pour son frère ce qu’il aime pour lui-même — que ta charité en soit le reflet.",
+    "Les portes du Paradis s’ouvrent à ceux qui donnent en secret en espérant seulement la récompense d’Allah.",
+    "Allah promet : ‘Tout ce que vous donnez, Je le remplacerai’ — ne crains donc aucune perte en aidant les nécessiteux.",
+    "Quand tu donnes aux autres, tu investis dans ton au-delà — échange ta richesse contre des récompenses éternelles.",
+    "Que ton cœur s’attendrisse devant l’orphelin, et que ta main s’étende vers le nécessiteux — c’est là que réside la vraie piété."
+  ]
 }

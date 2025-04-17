@@ -247,5 +247,29 @@
       "subtitle": "In Gaza ist über 90 % des Leitungswassers wegen extremer Salzigkeit und Verschmutzung ungenießbar. Die Grundwasserverschmutzung übersteigt 96 %. Helfen Sie uns, sauberes und sicheres Wasser bereitzustellen – eine lebenswichtige Quelle für viele Familien."
     },
     "learnMore": "Jetzt spenden"
-  }
+  },
+  "footer": {
+    "followUs": "Folge uns:",
+    "contact": "Kontakt",
+    "address": "7 Rue de Pfastatt, 68110 Illzach, Frankreich",
+    "email": "contact@sospalestine.fr",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Bleibe über unsere Arbeit und Neuigkeiten informiert. Gib unten deine E-Mail-Adresse ein:",
+      "placeholder": "Deine E-Mail",
+      "button": "Anmelden"
+    }
+  },
+  "charityQuotes": [
+    "Gib nicht aus Überfluss, sondern aus Glauben — denn jeder Tropfen, der im Namen Allahs gegeben wird, kehrt als Meer der Barmherzigkeit zurück.",
+    "Wohltätigkeit löscht Sünden wie Wasser das Feuer — lass dein Geben dein Schild im Diesseits und Jenseits sein.",
+    "Sogar ein Lächeln ist eine Wohltat — stell dir den Lohn vor, wenn du Hungrige speist oder Arme kleidest.",
+    "Die Hände, die um Allahs willen geben, bleiben nie leer — sie werden von Engeln gehalten.",
+    "Am Tag des Gerichts wird deine Spende dein Schatten sein — gib heute, ruhe morgen.",
+    "Ein Gläubiger ist nicht vollkommen im Glauben, bis er für seinen Bruder liebt, was er für sich selbst liebt — lass dein Geben diese Liebe widerspiegeln.",
+    "Die Tore des Paradieses öffnen sich für jene, die im Verborgenen spenden und nur Allahs Lohn erwarten.",
+    "Allah verspricht: ‚Was immer ihr spendet, Ich werde es ersetzen‘ — fürchte also keinen Verlust beim Geben an Bedürftige.",
+    "Wenn du anderen gibst, investierst du in dein Jenseits — tausche dein Vermögen gegen ewige Belohnung.",
+    "Erweiche dein Herz beim Anblick eines Waisenkindes und strecke deine Hand dem Bedürftigen entgegen — darin liegt wahre Gottesfurcht."
+  ]
 }
