@@ -23,7 +23,7 @@ const Home = () => {
         buttonLink="/donation"
       />
       <AboutAssociation />
-      <FeatureSection2 />
+      {/* <FeatureSection2 /> */}
       <CharityQuote />
       <BacktoTop />
       <BottomBar />
