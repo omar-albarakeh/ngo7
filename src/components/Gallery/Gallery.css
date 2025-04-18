@@ -16,7 +16,7 @@
 .tab-nav li {
   list-style: none;
   padding: 10px 20px;
-  border: 1px solid #0077cc;
+  border: 1px solid #4caf50;
   cursor: pointer;
   border-radius: 20px;
   transition: 0.3s ease;
@@ -24,7 +24,7 @@
 
 .tab-nav li.active,
 .tab-nav li:hover {
-  background: #0077cc;
+  background: #4caf50;
   color: white;
 }
 
