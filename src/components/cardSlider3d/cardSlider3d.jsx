@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
+import { useSwipeable } from "react-swipeable";
 import "./cardSlider3d.css";
-import useSliderImages from "./cardSliderData"; // <- note: it's a hook!
+import useSliderImages from "./cardSliderData";
 
 const CardSlider = () => {
-  const images = useSliderImages(); // ✅ call the hook here
+  const images = useSliderImages();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
   const intervalRef = useRef(null);
@@ -21,6 +22,13 @@ const CardSlider = () => {
     setCurrentIndex(index);
   };
 
+  const handlers = useSwipeable({
+    onSwipedLeft: goToNext,
+    onSwipedRight: goToPrev,
+    preventScrollOnSwipe: true,
+    trackMouse: true,
+  });
+
   useEffect(() => {
     if (autoPlay) {
       intervalRef.current = setInterval(goToNext, 3000);
@@ -37,24 +45,47 @@ const CardSlider = () => {
     return () => window.removeEventListener("keydown", handleKey);
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => setCurrentIndex((prev) => prev);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const getCircularStyle = (index) => {
+    const screenWidth = window.innerWidth;
+
+    let radius, scaleFocused, scaleOthers;
+    if (screenWidth <= 480) {
+      radius = 200;
+      scaleFocused = 1;
+      scaleOthers = 0.75;
+    } else if (screenWidth <= 768) {
+      radius = 300;
+      scaleFocused = 0.9;
+      scaleOthers = 0.7;
+    } else {
+      radius = 420;
+      scaleFocused = 0.85;
+      scaleOthers = 0.6;
+    }
+
+    const scale = index === currentIndex ? scaleFocused : scaleOthers;
+    const brightness = index === currentIndex ? 1 : 0.6;
+
     const angleStep = ((360 / totalSlides) * Math.PI) / 180;
     const angle =
       angleStep * ((index - currentIndex + totalSlides) % totalSlides);
-    const radius = 400;
 
     const x = Math.sin(angle) * radius;
     const z = Math.cos(angle) * radius;
-
-    const scale = index === currentIndex ? 0.8 : 0.6;
-    const brightness = index === currentIndex ? 1 : 0.6;
 
     return {
       transform: `translateX(${x}px) translateZ(${z}px) scale(${scale})`,
       zIndex: Math.round(z),
       filter: `brightness(${brightness})`,
-      opacity: z < 0 ? 0.3 : 1,
+      opacity: z < 0 ? 0.2 : 1,
       transition: "all 0.7s ease",
+      willChange: "transform, opacity",
     };
   };
 
@@ -64,6 +95,7 @@ const CardSlider = () => {
 
       <div
         className="slider-wrapper"
+        {...handlers}
         onMouseEnter={() => setAutoPlay(false)}
         onMouseLeave={() => setAutoPlay(true)}>
         {images.map((image, index) => (
@@ -71,7 +103,12 @@ const CardSlider = () => {
             key={image.id}
             className={`slide ${index === currentIndex ? "active" : ""}`}
             style={getCircularStyle(index)}>
-            <img src={image.src} alt={image.title} className="slide-image" />
+            <img
+              src={image.src}
+              alt={image.title}
+              className="slide-image"
+              loading="lazy"
+            />
             <div className="slide-overlay">
               <span className="slide-title">{image.title}</span>
             </div>
