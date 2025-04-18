@@ -22,6 +22,7 @@ const YouTubeCard = ({ videoId, title, description }) => {
 const YouTubeGallery = () => {
   const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const videosPerPage = 3;
 
   const videoData = useMemo(
     () =>
@@ -74,17 +75,22 @@ const YouTubeGallery = () => {
     [t]
   );
 
+  const maxIndex = Math.max(0, videoData.length - videosPerPage);
+
   const scroll = (direction) => {
     setCurrentIndex((prevIndex) => {
       if (direction === "left") {
-        return Math.max(0, prevIndex - 1);
+        return Math.max(0, prevIndex - videosPerPage);
       } else {
-        return Math.min(videoData.length - 1, prevIndex + 1);
+        return Math.min(maxIndex, prevIndex + videosPerPage);
       }
     });
   };
 
-  const visibleVideos = videoData.slice(currentIndex, currentIndex + 3);
+  const visibleVideos = videoData.slice(
+    currentIndex,
+    currentIndex + videosPerPage
+  );
 
   return (
     <div className="youtube-gallery">
@@ -114,7 +120,7 @@ const YouTubeGallery = () => {
         <button
           className="scroll-btn right"
           onClick={() => scroll("right")}
-          disabled={currentIndex >= videoData.length - 1}
+          disabled={currentIndex >= maxIndex}
           aria-label="Scroll Right">
           &#10095;
         </button>

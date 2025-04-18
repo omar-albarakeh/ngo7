@@ -21,11 +21,13 @@
   justify-content: center;
   gap: 1rem;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .scroll-wrapper.fixed-view {
   overflow: hidden;
-  width: calc(320px * 4 + 2rem * 3);
+  width: calc(320px * 3 + 2rem * 2);
+  max-width: 100%;
 }
 
 .youtube-card-list {
@@ -84,10 +86,10 @@
 }
 
 .scroll-btn {
-  background: white;
-  color: black;
+  background: #4caf50;
+  color: white;
   border: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -101,7 +103,7 @@
 
 .scroll-btn:hover {
   transform: scale(1.1);
-  background: #f9f9f9;
+  background: #4caf50;
 }
 
 .scroll-btn:disabled {
@@ -117,9 +119,10 @@
   margin-left: 0.5rem;
 }
 
+/* Tablet */
 @media (max-width: 1024px) {
   .scroll-wrapper.fixed-view {
-    width: calc(280px * 2 + 1.5rem);
+    width: calc(280px * 2 + 2rem);
   }
 
   .youtube-card {
@@ -137,22 +140,47 @@
   }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .scroll-wrapper.fixed-view {
-    width: 90%;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .youtube-card-list {
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   .youtube-card {
-    flex: 0 0 100%;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .card-info {
+    padding: 1rem;
+  }
+
+  .card-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .card-info p {
+    font-size: 0.95rem;
   }
 
   .scroll-container {
     flex-direction: column;
+    gap: 1rem;
   }
 
   .scroll-btn {
-    font-size: 1.6rem;
-    width: 40px;
-    height: 40px;
+    font-size: 1.5rem;
+    width: 38px;
+    height: 38px;
+  }
+
+  .video-heading {
+    font-size: 1.75rem;
   }
 }
