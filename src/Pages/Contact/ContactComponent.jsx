@@ -13,7 +13,6 @@ const Contact = () => {
       <TopInfoBar />
       <MyNavBar />
       <ContactForm />
-      <DonationSection />
       <CharityQuote />
       <BackToTop />
       <Footer />
