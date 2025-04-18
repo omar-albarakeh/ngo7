@@ -19,13 +19,11 @@ const YouTubeCard = ({ videoId, title, description }) => {
   );
 };
 
-const CARDS_PER_PAGE = 4;
-
 const YouTubeGallery = () => {
   const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const allVideos = useMemo(
+  const videoData = useMemo(
     () =>
       [
         {
@@ -76,21 +74,17 @@ const YouTubeGallery = () => {
     [t]
   );
 
-  const totalVideos = allVideos.length;
-  const maxIndex = Math.floor((totalVideos - 1) / CARDS_PER_PAGE);
-
-  const visibleVideos = allVideos.slice(
-    currentIndex * CARDS_PER_PAGE,
-    currentIndex * CARDS_PER_PAGE + CARDS_PER_PAGE
-  );
-
   const scroll = (direction) => {
-    setCurrentIndex((prev) =>
-      direction === "left"
-        ? Math.max(0, prev - 1)
-        : Math.min(maxIndex, prev + 1)
-    );
+    setCurrentIndex((prevIndex) => {
+      if (direction === "left") {
+        return Math.max(0, prevIndex - 1);
+      } else {
+        return Math.min(videoData.length - 1, prevIndex + 1);
+      }
+    });
   };
+
+  const visibleVideos = videoData.slice(currentIndex, currentIndex + 3);
 
   return (
     <div className="youtube-gallery">
@@ -100,15 +94,15 @@ const YouTubeGallery = () => {
           className="scroll-btn left"
           onClick={() => scroll("left")}
           disabled={currentIndex === 0}
-          aria-label="Scroll left">
-          ◀
+          aria-label="Scroll Left">
+          &#10094;
         </button>
 
         <div className="scroll-wrapper fixed-view">
           <div className="youtube-card-list no-scroll">
             {visibleVideos.map(({ videoId, title, description }) => (
               <YouTubeCard
-                key={videoId + title}
+                key={videoId}
                 videoId={videoId}
                 title={title}
                 description={description}
@@ -120,9 +114,9 @@ const YouTubeGallery = () => {
         <button
           className="scroll-btn right"
           onClick={() => scroll("right")}
-          disabled={currentIndex === maxIndex}
-          aria-label="Scroll right">
-          ▶
+          disabled={currentIndex >= videoData.length - 1}
+          aria-label="Scroll Right">
+          &#10095;
         </button>
       </div>
     </div>
