@@ -142,45 +142,17 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-  .scroll-wrapper.fixed-view {
-    width: 100%;
-    padding: 0 1rem;
+  .scroll-btn {
+    display: none;
   }
 
   .youtube-card-list {
-    flex-direction: column;
-    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
   }
 
   .youtube-card {
-    flex: 1 1 100%;
-    width: 100%;
-  }
-
-  .card-info {
-    padding: 1rem;
-  }
-
-  .card-info h3 {
-    font-size: 1.1rem;
-  }
-
-  .card-info p {
-    font-size: 0.95rem;
-  }
-
-  .scroll-container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .scroll-btn {
-    font-size: 1.5rem;
-    width: 38px;
-    height: 38px;
-  }
-
-  .video-heading {
-    font-size: 1.75rem;
+    scroll-snap-align: start;
   }
 }
