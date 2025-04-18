@@ -10,7 +10,6 @@ const Home = () => {
   const { t } = useTranslation();
   return (
     <>
-      <TopInfoBar />
       <MyNavBar />
       <Projects />
       <BacktoTop />
