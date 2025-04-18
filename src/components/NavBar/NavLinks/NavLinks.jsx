@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
 import { useTranslation } from "react-i18next";
 import CustomButton from "../customButton/customButton";
@@ -14,6 +14,8 @@ const NavLinks = ({
   closeMenu,
 }) => {
   const { t } = useTranslation();
+  const location = useLocation();
+  const currentPath = location.pathname;
 
   const dropdownItems = {
     services: [
@@ -37,6 +39,12 @@ const NavLinks = ({
 
   return (
     <nav className={`nav-links ${menuOpen ? "mobile-open" : ""}`}>
+      <Link
+        to="/"
+        onClick={closeMenu}
+        className={currentPath === "/" ? "active" : ""}>
+        {t("nav.Welcome")}
+      </Link>
       <DropdownMenu
         label={t("nav.ourServices")}
         name="services"
@@ -46,6 +54,7 @@ const NavLinks = ({
         setActiveDropdown={setActiveDropdown}
         handleDropdown={handleDropdown}
         closeMenu={closeMenu}
+        currentPath={currentPath}
       />
 
       <DropdownMenu
@@ -57,17 +66,23 @@ const NavLinks = ({
         setActiveDropdown={setActiveDropdown}
         handleDropdown={handleDropdown}
         closeMenu={closeMenu}
+        currentPath={currentPath}
       />
 
-      <Link to="/gallery" onClick={closeMenu}>
+      <Link
+        to="/gallery"
+        onClick={closeMenu}
+        className={currentPath === "/gallery" ? "active" : ""}>
         {t("nav.gallery")}
       </Link>
+
       <Link
-        to="/Contact
-      "
-        onClick={closeMenu}>
+        to="/contact"
+        onClick={closeMenu}
+        className={currentPath === "/contact" ? "active" : ""}>
         {t("nav.contactUs")}
       </Link>
+
       <CustomButton titleKey="nav.donateNow" to="/donation" />
     </nav>
   );

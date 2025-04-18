@@ -201,3 +201,18 @@
     font-size: 0.95rem;
   }
 }
+.nav-links a.active {
+  color: var(--primary-green, #4caf50);
+  transform: translateY(-2px);
+}
+
+.nav-links a.active::after {
+  width: 100%;
+  left: 50%;
+}
+
+.dropdown-menu a.active {
+  background-color: var(--secondary-color);
+  color: var(--primary-green);
+  font-weight: bold;
+}

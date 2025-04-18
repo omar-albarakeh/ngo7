@@ -11,6 +11,7 @@ const DropdownMenu = ({
   setActiveDropdown,
   handleDropdown,
   closeMenu,
+  currentPath, // <-- make sure you receive this prop
 }) => {
   const isOpen = activeDropdown === name;
 
@@ -56,7 +57,9 @@ const DropdownMenu = ({
             key={item.path}
             to={item.path}
             onClick={closeMenu}
-            className="dropdown-item"
+            className={`dropdown-item ${
+              currentPath === item.path ? "active" : ""
+            }`}
             role="menuitem"
             tabIndex={isOpen ? 0 : -1}>
             {item.label}
