@@ -29,7 +29,7 @@
 
 .tax-tip-note {
   font-size: 0.95rem;
-  color: var(--icon-color);
+  color: rgba(0, 0, 0, 0.7);
   font-style: italic;
   margin-top: 1.25rem;
 }
