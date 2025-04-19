@@ -254,6 +254,13 @@
 
 /* Responsive */
 @media (max-width: 999px) {
+  .hero-slider {
+  position: relative;
+  height: 55vh;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--top-bg);
+}
   .hero-slide {
     padding-left: 2.5rem;
   }
