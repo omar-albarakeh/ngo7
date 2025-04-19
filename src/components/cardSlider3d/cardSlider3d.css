@@ -216,6 +216,16 @@
 
 /* Mobile */
 @media (max-width: 480px) {
+  .slider-container {
+  width: 100%;
+  min-height: 50vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
   .slider-wrapper {
     height: 400px; /* Was 200px */
   }
