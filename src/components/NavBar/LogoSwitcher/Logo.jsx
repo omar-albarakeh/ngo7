@@ -7,14 +7,10 @@ const LogoSwitcher = ({ interval = 3000, className = "" }) => {
     {
       src: "./images/logo/logo1.png",
       alt: "Logo 1",
-      width: 120,
-      height: 40,
     },
     {
       src: "./images/logo/logo2.png",
       alt: "Logo 2",
-      width: 120,
-      height: 40,
     },
   ];
 
@@ -36,8 +32,6 @@ const LogoSwitcher = ({ interval = 3000, className = "" }) => {
           src={logo.src}
           alt={logo.alt}
           className={`switch-logo ${index === currentIndex ? "active" : ""}`}
-          width={logo.width}
-          height={logo.height}
         />
       ))}
     </Link>

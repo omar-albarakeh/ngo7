@@ -1,23 +1,24 @@
+/* Feature Section */
 .feature-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
-  padding: 60px 20px;
+  padding: 3.75rem 1.25rem;
   background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  box-shadow: 0 0.625rem 2.5rem rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
 .activities-title {
-  font-size: 36px;
+  font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 700;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   color: #222;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   text-transform: uppercase;
 }
 
@@ -26,7 +27,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 2rem;
   transition: all 0.4s ease;
 }
 
@@ -35,86 +36,102 @@
 }
 
 .feature-image {
+  flex: 1 1 30%;
   width: 100%;
-  max-width: 420px;
+  max-width: 25rem; /* 300px */
   height: auto;
-  border-radius: 16px;
+  border-radius: 1rem;
   object-fit: cover;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .feature-image:hover {
   transform: scale(1.03);
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
 }
 
 .feature-text {
-  flex: 1;
-  min-width: 280px;
-  max-width: 600px;
+  flex: 1 1 65%;
+  min-width: 17.5rem;
+  max-width: 40rem;
 }
 
 .feature-text h2 {
-  font-size: 26px;
+  font-size: clamp(1.25rem, 3vw, 1.625rem);
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   color: #111;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;
 }
 
 .feature-text p {
-  font-size: 15px;
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
   line-height: 1.7;
   color: #555;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .feature-points {
-  margin: 20px 0;
-  padding-left: 24px;
+  margin: 1.25rem 0;
+  padding-left: 0;
+  list-style: none;
   color: #444;
-  font-size: 15px;
+  font-size: clamp(0.875rem, 2.5vw, 0.9375rem);
   line-height: 1.6;
 }
 
 .feature-points li {
-  margin-bottom: 10px;
-  list-style-type: disc;
+  margin-bottom: 0.625rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.feature-points li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2a9d8f;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .urgency-text {
   color: #d62828;
   font-weight: 700;
-  font-size: 15px;
-  margin-bottom: 20px;
+  font-size: clamp(0.875rem, 2.5vw, 0.9375rem);
+  margin-bottom: 1.25rem;
 }
 
 .FeatureButton {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
-@media (max-width: 900px) {
+/* Responsive Design */
+@media (max-width: 56.25rem) {
   .feature-row {
-    flex-direction: column;
+    flex-direction: column !important;
     text-align: center;
   }
 
   .feature-image {
+    max-width: 16rem;
+    margin: 0 auto;
+  }
+
+  .feature-text {
+    width: 100%;
     max-width: 100%;
-  }
-
-  .feature-text h2 {
-    font-size: 22px;
-  }
-
-  .feature-text p,
-  .feature-points {
-    font-size: 14px;
+    padding: 0 1rem;
   }
 
   .feature-points {
     padding-left: 0;
-    list-style-position: inside;
+    text-align: left;
+  }
+
+  .feature-points li {
+    padding-left: 1.5rem;
   }
 }

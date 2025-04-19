@@ -11,7 +11,7 @@ const DropdownMenu = ({
   setActiveDropdown,
   handleDropdown,
   closeMenu,
-  currentPath, // <-- make sure you receive this prop
+  currentPath,
 }) => {
   const isOpen = activeDropdown === name;
 
