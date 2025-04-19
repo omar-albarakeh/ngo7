@@ -22,7 +22,7 @@ export default function FAQAccordion({ title, faqList }) {
             aria-controls={`faq-answer-${index}`}
             id={`faq-question-${index}`}>
             <span>{item.question}</span>
-            <span className="faq-icon">{openIndex === index ? "▼" : "▲"}</span>
+            <span className="faq-icon">{openIndex === index ? "▲" : "▼"}</span>
           </button>
           <div
             className="faq-answer-wrapper"
